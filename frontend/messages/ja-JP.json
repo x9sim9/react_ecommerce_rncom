@@ -1,0 +1,569 @@
+{
+	"app": {
+		"/": {
+			"breadcrumbTitle": "家",
+			"pageTitle": "家",
+			"urlName": ""
+		},
+		"/account": {
+			"addresses": "私の住所",
+			"breadcrumbTitle": "私のアカウント",
+			"pageTitle": "私のアカウント",
+			"recentOrders": "最近の注文",
+			"urlName": "アカウント"
+		},
+		"/account/addresses": {
+			"breadcrumbTitle": "私の住所",
+			"pageTitle": "私の住所",
+			"urlName": "住所"
+		},
+		"/account/addresses/[operation]/[[,,,orderId]]": {
+			"breadcrumbTitle": "{操作} アドレス",
+			"operation": {
+				"create": "作成する",
+				"update": "変化"
+			},
+			"pageTitle": "{操作} アドレス",
+			"urlName": ""
+		},
+		"/account/orders": {
+			"allOrders": "すべての注文",
+			"breadcrumbTitle": "私の注文",
+			"pageTitle": "私の注文",
+			"urlName": "注文"
+		},
+		"/account/orders/[orderId]": {
+			"addressTitle": "お届け先の住所",
+			"breadcrumbTitle": "",
+			"city": "市",
+			"line1": "ライン1",
+			"line2": "2行目",
+			"orderDate": "注文日",
+			"orderFriendlyId": "注文 ＃",
+			"orderItemsTitle": "注文品",
+			"orderTitle": "注文詳細",
+			"orderTotal": "合計",
+			"pageTitle": "",
+			"postcode": "郵便番号",
+			"shippingTotal": "配送",
+			"titlePrefix": "注文： ",
+			"urlName": "",
+			"viewProduct": "ビュー"
+		},
+		"/categories": {
+			"breadcrumbTitle": "カテゴリー",
+			"pageTitle": "カテゴリー",
+			"urlName": "カテゴリ"
+		},
+		"/categories/[categoryId]": {
+			"breadcrumbTitle": "",
+			"pageTitle": "",
+			"urlName": ""
+		},
+		"/categories/[categoryId]/[categorySlug]/[productId]/[,,,slug]": {
+			"breadcrumbTitle": "",
+			"pageTitle": "",
+			"productDescription": "商品情報",
+			"urlName": ""
+		},
+		"/login": {
+			"breadcrumbTitle": "ログイン",
+			"pageTitle": "ログイン",
+			"urlName": "ログイン"
+		},
+		"/shopping_cart": {
+			"breadcrumbTitle": "ショッピングカート",
+			"pageTitle": "ショッピングカート",
+			"urlName": "ショッピングカート"
+		},
+		"/shopping_cart/checkout": {
+			"breadcrumbTitle": "チェックアウト",
+			"pageTitle": "チェックアウト",
+			"urlName": "チェックアウト"
+		},
+		"not-found": {
+			"breadcrumbTitle": "見つかりません",
+			"pageTitle": "見つかりません",
+			"urlName": "404"
+		},
+		"/--": {
+			"breadcrumbTitle": "開発者",
+			"description": "このセクションには開発者にとって便利なツールが含まれています。プロジェクトのビルド時にこのフォルダーは除外されます。",
+			"menu": {
+				"uiComponents": "UIコンポーネント",
+				"uiDocs": "ドキュメント"
+			},
+			"pageTitle": "開発者",
+			"title": "開発者",
+			"urlName": ""
+		},
+		"/--/ui": {
+			"breadcrumbTitle": "UIコンポーネント",
+			"description": "UI コンポーネント ライブラリは、tailwind で構築された反応コンポーネントのセットです。",
+			"menu": {
+				"breakpoints": "ブレークポイント",
+				"button": "ボタン",
+				"currency": "通貨",
+				"developer": "開発者",
+				"form": "形状",
+				"grid": "グリッドとグリッドスパン",
+				"heading": "見出し",
+				"link": "リンク",
+				"list": "リスト",
+				"uiHome": "UIホーム"
+			},
+			"pageTitle": "UIコンポーネント",
+			"title": "UIコンポーネント",
+			"urlName": "ウイ"
+		},
+		"/--/ui/breakpoints": {
+			"breadcrumbTitle": "ブレークポイント",
+			"description": "UI コンポーネントの多くの属性はブレークポイントをサポートしています",
+			"dummy": {
+				"five": "五",
+				"four": "四",
+				"one": "1つ",
+				"six": "六",
+				"three": "三つ",
+				"two": "二",
+				"button": "ボタン",
+				"no": "いいえ",
+				"submit": "提出する",
+				"text": "文章",
+				"yes": "はい"
+			},
+			"headingButtonsWithBreakpoints": "ボタン、ブレークポイントあり",
+			"headingGridSpanWithBreakpoints": "GridSpan、ブレークポイントあり",
+			"headingGridWithBreakpoints": "グリッド、ブレークポイントあり",
+			"headingUnderstandingBreakpoints": "ブレークポイントを理解する",
+			"pageTitle": "ブレークポイント",
+			"paragraphSixBreakpoints": "6 つのブレークポイントは次のとおりです。",
+			"paragraphUseManyBreakpoints": "コンポーネントはさまざまな属性にブレークポイントを使用できます",
+			"title": "ブレークポイント",
+			"urlName": "ブレークポイント"
+		},
+		"/--/ui/button": {
+			"breadcrumbTitle": "ボタン",
+			"color": {
+				"danger": "危険",
+				"dangerOutline": "危険概要",
+				"dark": "暗い",
+				"darkOutline": "暗い輪郭 ",
+				"info": "情報",
+				"infoOutline": "情報概要",
+				"light": "ライト",
+				"primary": "主要な",
+				"primaryOutline": "主な概要",
+				"secondary": "二次",
+				"secondaryOutline": "二次概要",
+				"success": "成功",
+				"successOutline": "成功の概要",
+				"warning": "警告",
+				"warningOutline": "警告概要"
+			},
+			"dummy": {
+				"button": "ボタン",
+				"no": "いいえ",
+				"submit": "提出する",
+				"text": "文章",
+				"yes": "はい"
+			},
+			"headingColors": "色",
+			"headingSizes": "サイズ",
+			"headingTypes": "種類",
+			"pageTitle": "ボタン",
+			"size": {
+				"xs": "特小",
+				"sm": "小さい",
+				"md": "中くらい",
+				"lg": "大きい",
+				"xl": "特大"
+			},
+			"title": "ボタン",
+			"urlName": "ボタン"
+		},
+		"/--/ui/currency": {
+			"breadcrumbTitle": "通貨",
+			"description": "任意の値を通貨通貨に変換し、設定された地域の書式設定を行います",
+			"headingComponents": "コンポーネント",
+			"pageTitle": "通貨",
+			"title": "通貨",
+			"urlName": "通貨"
+		},
+		"/--/ui/form": {
+			"breadcrumbTitle": "フォーム",
+			"pageTitle": "フォーム",
+			"urlName": "形状"
+		},
+		"/--/ui/form/boolean": {
+			"breadcrumbTitle": "ブール値",
+			"pageTitle": "ブール値",
+			"urlName": "ブール値"
+		},
+		"/--/ui/form/button": {
+			"breadcrumbTitle": "ボタン",
+			"pageTitle": "ボタン",
+			"urlName": "ボタン"
+		},
+		"/--/ui/form/checkbox": {
+			"breadcrumbTitle": "チェックボックス",
+			"pageTitle": "チェックボックス",
+			"urlName": "チェックボックス"
+		},
+		"/--/ui/form/checkbox_group": {
+			"breadcrumbTitle": "チェックボックスグループ",
+			"pageTitle": "チェックボックスグループ",
+			"urlName": "チェックボックスグループ"
+		},
+		"/--/ui/form/date": {
+			"breadcrumbTitle": "日付",
+			"pageTitle": "日付",
+			"urlName": "日付"
+		},
+		"/--/ui/form/file": {
+			"breadcrumbTitle": "ファイル",
+			"pageTitle": "ファイル",
+			"urlName": "ファイル"
+		},
+		"/--/ui/form/phone_number": {
+			"breadcrumbTitle": "電話番号",
+			"pageTitle": "電話番号",
+			"urlName": "電話番号"
+		},
+		"/--/ui/form/radio_group": {
+			"breadcrumbTitle": "ラジオグループ",
+			"pageTitle": "ラジオグループ",
+			"urlName": "ラジオグループ"
+		},
+		"/--/ui/form/select": {
+			"breadcrumbTitle": "選択する",
+			"pageTitle": "選択する",
+			"urlName": "選択する"
+		},
+		"/--/ui/form/text": {
+			"breadcrumbTitle": "文章",
+			"pageTitle": "文章",
+			"urlName": "文章"
+		},
+		"/--/ui/form/textarea": {
+			"breadcrumbTitle": "テキストエリア",
+			"pageTitle": "テキストエリア",
+			"urlName": "テキストエリア"
+		},
+		"/--/ui/grid": {
+			"breadcrumbTitle": "グリッド",
+			"description": "プロジェクト全体でグループ要素とスペース要素の配置を管理します",
+			"dummy": {
+				"five": "五",
+				"four": "四",
+				"one": "1つ",
+				"six": "六",
+				"three": "三つ",
+				"two": "二",
+				"button": "ボタン",
+				"no": "いいえ",
+				"submit": "提出する",
+				"text": "文章",
+				"yes": "はい"
+			},
+			"headingBottom": "底",
+			"headingCols": "コル",
+			"headingComponents": "コンポーネント",
+			"headingFourColumns": "4 つの列",
+			"headingGridSpan": "グリッドスパン",
+			"headingGspd": "ギャップ",
+			"headingMiddle": "真ん中",
+			"headingRow": "行",
+			"headingSixColumns": "6 つの列",
+			"headingSixColWithSpan": "6 コラム、スパン付き",
+			"headingSmall": "小さい",
+			"headingTop": "上",
+			"headingTwelveColumns": "12 列",
+			"headingTwoColumns": "2 つの列",
+			"headingUnderstandingBreakpoints": "ブレークポイントを理解する",
+			"headingVerticalAlign": "垂直方向の整列",
+			"headingWithGrid": "グリッドあり",
+			"headingWithGridSpan": "グリッドスパンあり",
+			"pageTitle": "グリッド",
+			"paragraphCanBeDefinedAsBreakpoints": "以下のプロパティはすべて、ブレークポイントごとに別々に定義できます。",
+			"paragraphSixBreakpoints": "6 つのブレークポイントは次のとおりです。",
+			"size": {
+				"xs": "特小",
+				"sm": "小さい",
+				"md": "中くらい",
+				"lg": "大きい",
+				"xl": "特大"
+			},
+			"title": "グリッド",
+			"urlName": "グリッド"
+		},
+		"/--/ui/heading": {
+			"breadcrumbTitle": "見出し",
+			"description": "すべての異なる 6 のタイトルと見出しについて",
+			"headingExtraSmall": "極小見出し",
+			"headingLarge": "大きな見出し",
+			"headingMedium": "中見出し",
+			"headingSmall": "小見出し",
+			"headinxlg": "XL 見出し",
+			"pageTitle": "見出し",
+			"title": "見出し",
+			"urlName": "見出し"
+		},
+		"/--/ui/list": {
+			"breadcrumbTitle": "見出し",
+			"description": "順序付きリストと順序なしリストの作成",
+			"dummy": {
+				"five": "五",
+				"four": "四",
+				"one": "1つ",
+				"six": "六",
+				"three": "三つ",
+				"two": "二"
+			},
+			"pageTitle": "見出し",
+			"title": "リスト",
+			"urlName": "見出し"
+		},
+		"/--/ui/page": {
+			"breadcrumbTitle": "見出し",
+			"color": {
+				"danger": "危険",
+				"dangerOutline": "危険概要",
+				"dark": "暗い",
+				"darkOutline": "暗い輪郭 ",
+				"info": "情報",
+				"infoOutline": "情報概要",
+				"light": "ライト",
+				"primary": "主要な",
+				"primaryOutline": "主な概要",
+				"secondary": "二次",
+				"secondaryOutline": "二次概要",
+				"success": "成功",
+				"successOutline": "成功の概要",
+				"warning": "警告",
+				"warningOutline": "警告概要"
+			},
+			"description": "ナビゲーションとイベント用のハイパーリンクとボタン",
+			"dummy": {
+				"button": "ボタン",
+				"no": "いいえ",
+				"submit": "提出する",
+				"text": "文章",
+				"yes": "はい"
+			},
+			"headingActive": "アクティブ",
+			"headingColors": "色",
+			"headingDefault": "デフォルト",
+			"headingProps": "小道具",
+			"linkClickHere": "ここをクリック",
+			"linkCurrentlyActive": "現在活動中",
+			"linkCurrentPage": "現在のページ",
+			"linkNotCurrentPage": "現在のページではありません",
+			"pageTitle": "見出し",
+			"title": "リンク",
+			"urlName": "見出し"
+		}
+	},
+	"component": {
+		"account": {
+			"customer": {
+				"addressList": {
+					"changeLabel": "住所の編集",
+					"createLabel": "新しいアドレスを追加",
+					"deleteFailed": "アドレスの削除で問題が発生しました。もう一度お試しください。",
+					"deleteLabel": "消去",
+					"deleteSuccess": "アドレスは削除されました",
+					"title": "すべてのアドレス"
+				},
+				"saveAddress": {
+					"city": "市",
+					"line1": "ライン1",
+					"line2": "2行目",
+					"postcode": "郵便番号",
+					"saveFailure": "アドレスの保存中に問題が発生しました。詳細を確認して、もう一度お試しください。",
+					"saveSuccess": "あなたのアドレスが保存されました",
+					"submit": "{操作} アドレス"
+				}
+			},
+			"order": {
+				"orderList": {
+					"viewOrder": "表示の順序"
+				}
+			},
+			"pageContent": {
+				"menu": {
+					"addresses": "私の住所",
+					"home": "私のアカウント",
+					"orders": "私の注文"
+				},
+				"menuTitle": "私のアカウント"
+			}
+		},
+		"common": {
+			"account": {
+				"accountNavitem": {
+					"menu": {
+						"account": "私のアカウント",
+						"addresses": "私の住所",
+						"logout": "ログアウト",
+						"orders": "私の注文"
+					},
+					"menuTitle": "私のアカウント"
+				}
+			},
+			"customer": {
+				"login": {
+					"emailAddress": "電子メールアドレス",
+					"loginAction": "ログイン",
+					"loginError": "エラーのためログインできませんでした。もう一度お試しください。",
+					"loginFailed": "詳細を認証できませんでした。確認してもう一度お試しください。",
+					"loginSuccess": "アカウントにログインしました",
+					"password": "パスワード",
+					"title": "ログイン"
+				},
+				"useCustomer": {
+					"logoutSuccess": "アカウントから正常にログアウトされました"
+				}
+			},
+			"footer": {},
+			"header": {
+				"menu": {
+					"allCategories": "すべてのカテゴリ",
+					"browseByCategory": "カテゴリ別に参照"
+				}
+			}
+		},
+		"crud": {
+			"change": {
+				"create": "作成する",
+				"failedMessage": "アイテムの保存中に問題が発生しました。詳細を確認して、もう一度お試しください。",
+				"successMessage": "アイテムは保存されました",
+				"update": "アップデート"
+			},
+			"list": {
+				"change": "編集",
+				"delete": "消去",
+				"failedDeleteMessage": "アイテムの削除中に問題が発生しました。もう一度お試しください。",
+				"successDeleteMessage": "項目は削除されました",
+				"update": "アップデート"
+			}
+		},
+		"storefront": {
+			"product": {
+				"categories": {
+					"title": "すべてのカテゴリ"
+				}
+			},
+			"shoppingCart": {
+				"addToCart": {
+					"addToCart": "カートに追加",
+					"errorAddtoCart": "商品をカートに追加できませんでした。ページを更新してもう一度お試しください。",
+					"purchase": "購入",
+					"quantityInCart": "このアイテムは {quantity} 個あります",
+					"shoppingCartLink": "ショッピングカート"
+				},
+				"checkout": {
+					"address": {
+						"city": "市",
+						"line1": "ライン1",
+						"line2": "2行目",
+						"newAddress": "新しいアドレス",
+						"postcode": "郵便番号"
+					},
+					"buyButton": "購入を完了する",
+					"createNewAccount": "新しいアカウントを作成する",
+					"createOrderFailed": "注文の作成中に問題が発生しました。詳細を確認して、もう一度お試しください。",
+					"createOrderSuccess": "ご購入いただきありがとうございます。ご注文は完了しました。ご注文情報はこちらです。",
+					"customer": {
+						"confirmPassword": "パスワードを認証する",
+						"emailAddress": "電子メールアドレス",
+						"firstName": "ファーストネーム",
+						"lastName": "苗字",
+						"password": "パスワード",
+						"phoneNumber": "電話番号"
+					},
+					"details": "詳細",
+					"existingAddresses": "保存されたアドレス",
+					"existingCustomer": "既存の顧客",
+					"newCustomer": "新規顧客",
+					"newCustomerParagraph": "チェックアウト時に指示に従ってアカウントを作成するだけです",
+					"orderError": "注文の完了時にエラーが発生しました。もう一度お試しください。",
+					"selectAddress": "住所を選択してください",
+					"shipping": "配送",
+					"shippingLabel": "配送",
+					"shippingOptions": "配送オプション",
+					"subtotal": "小計",
+					"tax": "バット",
+					"total": "合計",
+					"totalsLabel": "合計"
+				},
+				"largeCart": {
+					"backToBrowse": "ショッピングに戻る",
+					"browseProducts": "製品を閲覧する",
+					"emptyShoppingCart": "ショッピングカートは空です",
+					"proceedToCheckout": "チェックアウトに進む",
+					"shipping": "配送",
+					"shippingMessage": "チェックアウト時に計算されます",
+					"subtotal": "小計",
+					"tax": "バット",
+					"title": "ショッピングカート",
+					"total": "合計"
+				},
+				"smallCart": {
+					"checkoutLink": "チェックアウト",
+					"otherItems": "その他 {count} 個のアイテム",
+					"shoppingCartLink": "ショッピングカート",
+					"title": "ショッピングカート"
+				}
+			}
+		},
+		"ui": {
+			"form": {
+				"errors": {
+					"fieldsHaveErrorsTryAgain": "フィールドにエラーがあります。確認してもう一度お試しください。"
+				},
+				"submit": {
+					"fieldsHaveErrors": "フィールドにエラーがあります"
+				},
+				"validation": {
+					"criteria": {
+						"alphanumericExtra": "文字、数字、スペース、ハイフンのみを含めることができます",
+						"emailAddress": "有効な電子メールアドレスでなければなりません",
+						"password": {
+							"lowercase": "小文字",
+							"message": "安全なパスワードである必要があります",
+							"minLength": "長さの文字数",
+							"number": "数",
+							"special": "記号 / 特殊文字",
+							"uppercase": "大文字"
+						},
+						"trackingNumber": "有効な追跡番号である必要があります",
+						"zendeskTicket": "有効なZendeskチケット番号である必要があります"
+					},
+					"rules": {
+						"allSelected": "すべてのオプションを選択する必要があります",
+						"doesNotMatch": "フィールドと一致しません",
+						"fileTooLarge": "有効な電話番号である必要があります",
+						"integer": "有効な整数でなければなりません",
+						"maxDate": "最大の日付である必要があります",
+						"maxLength": "最大 {max} 文字にする必要があります",
+						"maxNumber": "最大値は {max} である必要があります",
+						"maxSelected": "最大 {max} 個のオプションを選択する必要があります",
+						"minDate": "少なくとも次の日付にする必要があります",
+						"minLength": "少なくとも {min} 文字である必要があります",
+						"minNumber": "最小値は {min} である必要があります",
+						"minSelected": "少なくとも {min} 個のオプションを選択する必要があります",
+						"mustMatch": "一致している必要があります",
+						"required": "が必要です",
+						"validPhoneNumber": "有効な電話番号である必要があります"
+					}
+				}
+			},
+			"navbar": {
+				"navbar": {
+					"openMenu": "メインメニューを開く"
+				}
+			}
+		}
+	}
+}

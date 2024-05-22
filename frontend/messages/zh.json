@@ -1,0 +1,569 @@
+{
+	"app": {
+		"/": {
+			"breadcrumbTitle": "家",
+			"pageTitle": "家",
+			"urlName": ""
+		},
+		"/account": {
+			"addresses": "我的地址",
+			"breadcrumbTitle": "我的账户",
+			"pageTitle": "我的账户",
+			"recentOrders": "最近的订单",
+			"urlName": "帐户"
+		},
+		"/account/addresses": {
+			"breadcrumbTitle": "我的地址",
+			"pageTitle": "我的地址",
+			"urlName": "地址"
+		},
+		"/account/addresses/[operation]/[[,,,orderId]]": {
+			"breadcrumbTitle": "{操作}地址",
+			"operation": {
+				"create": "创造",
+				"update": "改变"
+			},
+			"pageTitle": "{操作}地址",
+			"urlName": ""
+		},
+		"/account/orders": {
+			"allOrders": "所有订单",
+			"breadcrumbTitle": "我的订单",
+			"pageTitle": "我的订单",
+			"urlName": "命令"
+		},
+		"/account/orders/[orderId]": {
+			"addressTitle": "收件地址",
+			"breadcrumbTitle": "",
+			"city": "城市",
+			"line1": "1号线",
+			"line2": "2号线",
+			"orderDate": "订购日期",
+			"orderFriendlyId": "命令 ＃",
+			"orderItemsTitle": "订购商品",
+			"orderTitle": "订单详细信息",
+			"orderTotal": "全部的",
+			"pageTitle": "",
+			"postcode": "邮政编码",
+			"shippingTotal": "船运",
+			"titlePrefix": "命令： ",
+			"urlName": "",
+			"viewProduct": "看法"
+		},
+		"/categories": {
+			"breadcrumbTitle": "类别",
+			"pageTitle": "类别",
+			"urlName": "类别"
+		},
+		"/categories/[categoryId]": {
+			"breadcrumbTitle": "",
+			"pageTitle": "",
+			"urlName": ""
+		},
+		"/categories/[categoryId]/[categorySlug]/[productId]/[,,,slug]": {
+			"breadcrumbTitle": "",
+			"pageTitle": "",
+			"productDescription": "产品信息",
+			"urlName": ""
+		},
+		"/login": {
+			"breadcrumbTitle": "登录",
+			"pageTitle": "登录",
+			"urlName": "登录"
+		},
+		"/shopping_cart": {
+			"breadcrumbTitle": "购物车",
+			"pageTitle": "购物车",
+			"urlName": "购物车"
+		},
+		"/shopping_cart/checkout": {
+			"breadcrumbTitle": "查看",
+			"pageTitle": "查看",
+			"urlName": "查看"
+		},
+		"not-found": {
+			"breadcrumbTitle": "未找到",
+			"pageTitle": "未找到",
+			"urlName": "404"
+		},
+		"/--": {
+			"breadcrumbTitle": "开发商",
+			"description": "本节包含对开发人员有用的工具，当项目构建时，此文件夹被排除",
+			"menu": {
+				"uiComponents": "用户界面组件",
+				"uiDocs": "文档"
+			},
+			"pageTitle": "开发商",
+			"title": "开发商",
+			"urlName": ""
+		},
+		"/--/ui": {
+			"breadcrumbTitle": "用户界面组件",
+			"description": "UI 组件库是一组使用 tailwind 构建的 React 组件",
+			"menu": {
+				"breakpoints": "断点",
+				"button": "按钮",
+				"currency": "货币",
+				"developer": "开发商",
+				"form": "形式",
+				"grid": "网格和网格跨度",
+				"heading": "标题",
+				"link": "关联",
+				"list": "列表",
+				"uiHome": "用户界面首页"
+			},
+			"pageTitle": "用户界面组件",
+			"title": "用户界面组件",
+			"urlName": "用户界面"
+		},
+		"/--/ui/breakpoints": {
+			"breadcrumbTitle": "断点",
+			"description": "UI组件的许多属性都支持断点",
+			"dummy": {
+				"five": "五",
+				"four": "四",
+				"one": "一",
+				"six": "六",
+				"three": "三",
+				"two": "二",
+				"button": "按钮",
+				"no": "不",
+				"submit": "提交",
+				"text": "文本",
+				"yes": "是的"
+			},
+			"headingButtonsWithBreakpoints": "按钮，带断点",
+			"headingGridSpanWithBreakpoints": "GridSpan，带断点",
+			"headingGridWithBreakpoints": "网格，带断点",
+			"headingUnderstandingBreakpoints": "了解断点",
+			"pageTitle": "断点",
+			"paragraphSixBreakpoints": "这六个断点是",
+			"paragraphUseManyBreakpoints": "组件可以在许多不同的属性上使用断点",
+			"title": "断点",
+			"urlName": "断点"
+		},
+		"/--/ui/button": {
+			"breadcrumbTitle": "按钮",
+			"color": {
+				"danger": "危险",
+				"dangerOutline": "危险概要",
+				"dark": "黑暗的",
+				"darkOutline": "深色轮廓 ",
+				"info": "信息",
+				"infoOutline": "信息大纲",
+				"light": "光",
+				"primary": "基本的",
+				"primaryOutline": "初步轮廓",
+				"secondary": "中学",
+				"secondaryOutline": "次要大纲",
+				"success": "成功",
+				"successOutline": "成功概要",
+				"warning": "警告",
+				"warningOutline": "警告大纲"
+			},
+			"dummy": {
+				"button": "按钮",
+				"no": "不",
+				"submit": "提交",
+				"text": "文本",
+				"yes": "是的"
+			},
+			"headingColors": "颜色",
+			"headingSizes": "尺寸",
+			"headingTypes": "类型",
+			"pageTitle": "按钮",
+			"size": {
+				"xs": "特小号",
+				"sm": "小的",
+				"md": "中等的",
+				"lg": "大的",
+				"xl": "特大号"
+			},
+			"title": "按钮",
+			"urlName": "按钮"
+		},
+		"/--/ui/currency": {
+			"breadcrumbTitle": "货币",
+			"description": "将任何值转换为所设置区域的货币和格式",
+			"headingComponents": "成分",
+			"pageTitle": "货币",
+			"title": "货币",
+			"urlName": "货币"
+		},
+		"/--/ui/form": {
+			"breadcrumbTitle": "形式",
+			"pageTitle": "形式",
+			"urlName": "形式"
+		},
+		"/--/ui/form/boolean": {
+			"breadcrumbTitle": "布尔值",
+			"pageTitle": "布尔值",
+			"urlName": "布尔值"
+		},
+		"/--/ui/form/button": {
+			"breadcrumbTitle": "纽扣",
+			"pageTitle": "纽扣",
+			"urlName": "按钮"
+		},
+		"/--/ui/form/checkbox": {
+			"breadcrumbTitle": "复选框",
+			"pageTitle": "复选框",
+			"urlName": "复选框"
+		},
+		"/--/ui/form/checkbox_group": {
+			"breadcrumbTitle": "复选框组",
+			"pageTitle": "复选框组",
+			"urlName": "复选框组"
+		},
+		"/--/ui/form/date": {
+			"breadcrumbTitle": "日期",
+			"pageTitle": "日期",
+			"urlName": "日期"
+		},
+		"/--/ui/form/file": {
+			"breadcrumbTitle": "文件",
+			"pageTitle": "文件",
+			"urlName": "文件"
+		},
+		"/--/ui/form/phone_number": {
+			"breadcrumbTitle": "电话号码",
+			"pageTitle": "电话号码",
+			"urlName": "电话号码"
+		},
+		"/--/ui/form/radio_group": {
+			"breadcrumbTitle": "无线电组",
+			"pageTitle": "无线电组",
+			"urlName": "广播组"
+		},
+		"/--/ui/form/select": {
+			"breadcrumbTitle": "选择",
+			"pageTitle": "选择",
+			"urlName": "选择"
+		},
+		"/--/ui/form/text": {
+			"breadcrumbTitle": "文本",
+			"pageTitle": "文本",
+			"urlName": "文本"
+		},
+		"/--/ui/form/textarea": {
+			"breadcrumbTitle": "文本区",
+			"pageTitle": "文本区",
+			"urlName": "文本区域"
+		},
+		"/--/ui/grid": {
+			"breadcrumbTitle": "网格",
+			"description": "管理整个项目中组和间距元素的对齐",
+			"dummy": {
+				"five": "五",
+				"four": "四",
+				"one": "一",
+				"six": "六",
+				"three": "三",
+				"two": "二",
+				"button": "按钮",
+				"no": "不",
+				"submit": "提交",
+				"text": "文本",
+				"yes": "是的"
+			},
+			"headingBottom": "底部",
+			"headingCols": "科尔斯",
+			"headingComponents": "成分",
+			"headingFourColumns": "四柱",
+			"headingGridSpan": "网格跨度",
+			"headingGspd": "差距",
+			"headingMiddle": "中间",
+			"headingRow": "排",
+			"headingSixColumns": "六栏",
+			"headingSixColWithSpan": "六柱，带跨度",
+			"headingSmall": "小的",
+			"headingTop": "顶部",
+			"headingTwelveColumns": "十二根柱子",
+			"headingTwoColumns": "两列",
+			"headingUnderstandingBreakpoints": "了解断点",
+			"headingVerticalAlign": "垂直对齐",
+			"headingWithGrid": "带网格",
+			"headingWithGridSpan": "与网格跨度",
+			"pageTitle": "网格",
+			"paragraphCanBeDefinedAsBreakpoints": "以下所有属性都可以在每个断点处进行不同的定义",
+			"paragraphSixBreakpoints": "这六个断点是",
+			"size": {
+				"xs": "特小号",
+				"sm": "小的",
+				"md": "中等的",
+				"lg": "大的",
+				"xl": "特大号"
+			},
+			"title": "网格",
+			"urlName": "网格"
+		},
+		"/--/ui/heading": {
+			"breadcrumbTitle": "标题",
+			"description": "对于所有不同六种的标题和标题",
+			"headingExtraSmall": "超小标题",
+			"headingLarge": "大标题",
+			"headingMedium": "中标题",
+			"headingSmall": "小标题",
+			"headinxlg": "XL 标题",
+			"pageTitle": "标题",
+			"title": "标题",
+			"urlName": "标题"
+		},
+		"/--/ui/list": {
+			"breadcrumbTitle": "标题",
+			"description": "创建有序列表和无序列表",
+			"dummy": {
+				"five": "五",
+				"four": "四",
+				"one": "一",
+				"six": "六",
+				"three": "三",
+				"two": "二"
+			},
+			"pageTitle": "标题",
+			"title": "列表",
+			"urlName": "标题"
+		},
+		"/--/ui/page": {
+			"breadcrumbTitle": "标题",
+			"color": {
+				"danger": "危险",
+				"dangerOutline": "危险概要",
+				"dark": "黑暗的",
+				"darkOutline": "深色轮廓 ",
+				"info": "信息",
+				"infoOutline": "信息大纲",
+				"light": "光",
+				"primary": "基本的",
+				"primaryOutline": "初步轮廓",
+				"secondary": "中学",
+				"secondaryOutline": "次要大纲",
+				"success": "成功",
+				"successOutline": "成功概要",
+				"warning": "警告",
+				"warningOutline": "警告大纲"
+			},
+			"description": "用于导航和事件的超链接和按钮",
+			"dummy": {
+				"button": "按钮",
+				"no": "不",
+				"submit": "提交",
+				"text": "文本",
+				"yes": "是的"
+			},
+			"headingActive": "积极的",
+			"headingColors": "颜色",
+			"headingDefault": "默认",
+			"headingProps": "道具",
+			"linkClickHere": "点击这里",
+			"linkCurrentlyActive": "目前活跃",
+			"linkCurrentPage": "当前页面",
+			"linkNotCurrentPage": "不是当前页面",
+			"pageTitle": "标题",
+			"title": "关联",
+			"urlName": "标题"
+		}
+	},
+	"component": {
+		"account": {
+			"customer": {
+				"addressList": {
+					"changeLabel": "编辑地址",
+					"createLabel": "添加新地址",
+					"deleteFailed": "删除地址时出现问题，请重试",
+					"deleteLabel": "删除",
+					"deleteSuccess": "地址已被删除",
+					"title": "所有地址"
+				},
+				"saveAddress": {
+					"city": "城市",
+					"line1": "1号线",
+					"line2": "2号线",
+					"postcode": "邮政编码",
+					"saveFailure": "保存您的地址时出现问题，请检查详细信息并重试",
+					"saveSuccess": "您的地址已保存",
+					"submit": "{操作}地址"
+				}
+			},
+			"order": {
+				"orderList": {
+					"viewOrder": "查看订单"
+				}
+			},
+			"pageContent": {
+				"menu": {
+					"addresses": "我的地址",
+					"home": "我的账户",
+					"orders": "我的订单"
+				},
+				"menuTitle": "我的账户"
+			}
+		},
+		"common": {
+			"account": {
+				"accountNavitem": {
+					"menu": {
+						"account": "我的账户",
+						"addresses": "我的地址",
+						"logout": "登出",
+						"orders": "我的订单"
+					},
+					"menuTitle": "我的账户"
+				}
+			},
+			"customer": {
+				"login": {
+					"emailAddress": "电子邮件地址",
+					"loginAction": "登录",
+					"loginError": "由于错误，登录失败，请重试",
+					"loginFailed": "我们无法验证您的详细信息，请检查并重试",
+					"loginSuccess": "您现在已登录您的帐户",
+					"password": "密码",
+					"title": "登录"
+				},
+				"useCustomer": {
+					"logoutSuccess": "您已成功退出帐户"
+				}
+			},
+			"footer": {},
+			"header": {
+				"menu": {
+					"allCategories": "所有类别",
+					"browseByCategory": "按类别浏览"
+				}
+			}
+		},
+		"crud": {
+			"change": {
+				"create": "创造",
+				"failedMessage": "保存项目时出现问题，请检查详细信息并重试",
+				"successMessage": "该项目已保存",
+				"update": "更新"
+			},
+			"list": {
+				"change": "编辑",
+				"delete": "删除",
+				"failedDeleteMessage": "删除该项目时出现问题，请重试",
+				"successDeleteMessage": "该项目已被删除",
+				"update": "更新"
+			}
+		},
+		"storefront": {
+			"product": {
+				"categories": {
+					"title": "所有类别"
+				}
+			},
+			"shoppingCart": {
+				"addToCart": {
+					"addToCart": "添加到购物车",
+					"errorAddtoCart": "我们无法将产品添加到您的购物车，请刷新页面并重试",
+					"purchase": "购买",
+					"quantityInCart": "您的商品中有 {quantity} 件",
+					"shoppingCartLink": "购物车"
+				},
+				"checkout": {
+					"address": {
+						"city": "城市",
+						"line1": "1号线",
+						"line2": "2号线",
+						"newAddress": "新地址",
+						"postcode": "邮政编码"
+					},
+					"buyButton": "完成购买",
+					"createNewAccount": "建立新帐户",
+					"createOrderFailed": "创建订单时出现问题，请检查详细信息并重试",
+					"createOrderSuccess": "感谢您的购买，您的订单已下达，这是您的订单信息",
+					"customer": {
+						"confirmPassword": "确认密码",
+						"emailAddress": "电子邮件地址",
+						"firstName": "名",
+						"lastName": "姓",
+						"password": "密码",
+						"phoneNumber": "电话号码"
+					},
+					"details": "细节",
+					"existingAddresses": "已保存地址",
+					"existingCustomer": "现有客户",
+					"newCustomer": "新客户",
+					"newCustomerParagraph": "只需按照结帐时的提示即可创建您的帐户",
+					"orderError": "完成您的订单时出错，请重试",
+					"selectAddress": "选择地址",
+					"shipping": "船运",
+					"shippingLabel": "船运",
+					"shippingOptions": "送货选项",
+					"subtotal": "小计",
+					"tax": "增值税",
+					"total": "全部的",
+					"totalsLabel": "全部的"
+				},
+				"largeCart": {
+					"backToBrowse": "返回购物",
+					"browseProducts": "浏览产品",
+					"emptyShoppingCart": "你的购物车是空的",
+					"proceedToCheckout": "进行结算",
+					"shipping": "船运",
+					"shippingMessage": "结账时计算",
+					"subtotal": "小计",
+					"tax": "增值税",
+					"title": "购物车",
+					"total": "全部的"
+				},
+				"smallCart": {
+					"checkoutLink": "查看",
+					"otherItems": "以及其他 {count} 件商品",
+					"shoppingCartLink": "购物车",
+					"title": "购物车"
+				}
+			}
+		},
+		"ui": {
+			"form": {
+				"errors": {
+					"fieldsHaveErrorsTryAgain": "字段有错误，请检查并重试"
+				},
+				"submit": {
+					"fieldsHaveErrors": "字段有错误"
+				},
+				"validation": {
+					"criteria": {
+						"alphanumericExtra": "只能包含字母、数字、空格和连字符",
+						"emailAddress": "必须是一个有效的E-mail地址",
+						"password": {
+							"lowercase": "小写字符",
+							"message": "必须是安全密码",
+							"minLength": "长度中的字符",
+							"number": "数量",
+							"special": "符号/特殊字符",
+							"uppercase": "大写字符"
+						},
+						"trackingNumber": "必须是有效的追踪号码",
+						"zendeskTicket": "必须是有效的 Zendesk 票号"
+					},
+					"rules": {
+						"allSelected": "必须选择所有选项",
+						"doesNotMatch": "与字段不匹配",
+						"fileTooLarge": "必须是有效的电话号码",
+						"integer": "必须是有效的整数",
+						"maxDate": "最大日期必须为",
+						"maxLength": "最多必须有 {max} 个字符",
+						"maxNumber": "必须是最大值 {max}",
+						"maxSelected": "必须最多选择 {max} 个选项",
+						"minDate": "最短日期必须为",
+						"minLength": "必须至少包含 {min} 个字符",
+						"minNumber": "必须是最小值 {min}",
+						"minSelected": "必须至少选择 {min} 个选项",
+						"mustMatch": "必须匹配",
+						"required": "是必须的",
+						"validPhoneNumber": "必须是有效的电话号码"
+					}
+				}
+			},
+			"navbar": {
+				"navbar": {
+					"openMenu": "打开主菜单"
+				}
+			}
+		}
+	}
+}

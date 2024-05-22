@@ -1,0 +1,10 @@
+{
+  "suites": 4,
+  "tests": 8,
+  "passes": 8,
+  "pending": 0,
+  "failures": 0,
+  "start": "2024-05-22T16:15:27.745Z",
+  "duration": 3512,
+  "file": "cypress/e2e/account/single_page/orders_page.cy.ts"
+}

@@ -1,0 +1,10 @@
+{
+  "suites": 9,
+  "tests": 13,
+  "passes": 13,
+  "pending": 0,
+  "failures": 0,
+  "start": "2024-05-22T16:14:59.139Z",
+  "duration": 8407,
+  "file": "cypress/e2e/account/features/addresses.cy.ts"
+}

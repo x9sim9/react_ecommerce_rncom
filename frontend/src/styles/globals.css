@@ -1,0 +1,243 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	font-size: 14px;
+}
+
+/* ------ React Datepicker ------ */
+
+/* stylelint-disable selector-class-pattern */
+.react-datepicker__portal {
+	@apply absolute z-10 w-72 text-sm transform-none bg-white shadow px-3 py-2 top-12 right-0 border-2 border-gray-200 rounded !important;
+}
+
+.react-datepicker__month-container {
+	@apply flex flex-col !important;
+}
+
+.react-datepicker__month {
+	@apply flex flex-col !important;
+}
+
+.react-datepicker__current-month {
+	@apply ml-2.5 text-lg font-semibold text-gray-800 !important;
+}
+
+.react-datepicker__week {
+	@apply flex justify-around !important;
+}
+
+.react-datepicker__day-names {
+	@apply flex justify-around text-gray-400 font-medium text-center text-xs !important;
+}
+
+.react-datepicker__day-name {
+	@apply w-8 h-8 flex items-center justify-center py-1 rounded-full !important;
+}
+
+.react-datepicker__navigation--previous,
+.react-datepicker__navigation--next {
+	@apply absolute top-2 !important;
+}
+
+.react-datepicker__navigation--previous {
+	@apply right-12 w-8 h-8 rounded transition flex items-center justify-center hover:bg-gray-200  !important;
+}
+
+.react-datepicker__navigation--next {
+	@apply right-4 w-8 h-8 rounded transition flex items-center justify-center hover:bg-gray-200  !important;
+}
+
+.react-datepicker__day {
+	@apply mb-1 w-8 h-8 flex items-center justify-center py-1 text-sm leading-loose transition text-gray-700 rounded  !important;
+}
+
+.react-datepicker__day--disabled {
+	@apply cursor-not-allowed opacity-40 hover:bg-transparent !important;
+}
+
+.react-datepicker__day--outside-month {
+	@apply text-gray-300 !important;
+}
+
+.react-datepicker__day--in-range {
+	@apply bg-gray-200 !important;
+}
+
+.react-datepicker__day--in-selecting-range {
+	@apply bg-blue-200  !important;
+}
+
+.react-datepicker__day--selecting-range-start {
+	@apply bg-white border-2 border-blue-500 !important;
+}
+
+.react-datepicker__day--selecting-range-end {
+	@apply bg-white border-2 border-blue-500 !important;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+	@apply bg-blue-500 text-white !important;
+}
+
+.react-datepicker__day--range-start {
+	@apply bg-blue-500 text-white hover:text-gray-700 hover:bg-white !important;
+}
+
+.react-datepicker__day--range-end {
+	@apply bg-blue-500 text-white hover:text-gray-700 hover:bg-white !important;
+}
+
+.react-datepicker__header__dropdown {
+	@apply grid grid-flow-col justify-items-center mt-1 !important;
+}
+
+.react-datepicker__month-select,
+.react-datepicker__year-select {
+	@apply block sm:text-sm rounded-lg m-0 w-full py-1 !important;
+}
+
+.react-datepicker__time-container {
+	@apply right-[-85px] top-[-1px] !important
+}
+
+.react-datepicker__triangle {
+	@apply left-[-46%] !important
+}
+
+.react-datepicker__header--has-time-select {
+	@apply rounded-tr-none !important
+}
+
+.react-datepicker__time-box {
+	@apply w-full
+}
+
+/* stylelint-enable selector-class-pattern */
+
+/* ------ Phone Number ------ */
+
+/* stylelint-disable custom-property-pattern, selector-class-pattern */
+
+/* CSS variables. */
+:root {
+	--PhoneInput-color--focus: #03b2cb;
+	--PhoneInputInternationalIconPhone-opacity: 0.8;
+	--PhoneInputInternationalIconGlobe-opacity: 0.65;
+	--PhoneInputCountrySelect-marginRight: 0.35em;
+	--PhoneInputCountrySelectArrow-width: 0.5em;
+	--PhoneInputCountrySelectArrow-marginLeft: var(--PhoneInputCountrySelect-marginRight);
+	--PhoneInputCountrySelectArrow-borderWidth: 1px;
+	--PhoneInputCountrySelectArrow-opacity: 0.45;
+	--PhoneInputCountrySelectArrow-color: black;
+	--PhoneInputCountrySelectArrow-color--focus: var(--PhoneInput-color--focus);
+	--PhoneInputCountrySelectArrow-transform: rotate(45deg);
+	--PhoneInputCountryFlag-aspectRatio: 1.5;
+	--PhoneInputCountryFlag-height: 1em;
+	--PhoneInputCountryFlag-borderWidth: 1px;
+	--PhoneInputCountryFlag-borderColor: rgb(0 0 0 / 50%);
+	--PhoneInputCountryFlag-borderColor--focus: var(--PhoneInput-color--focus);
+	--PhoneInputCountryFlag-backgroundColor--loading: rgb(0 0 0 / 10%);
+}
+
+.PhoneInput {
+	@apply flex items-center w-full border h-[38px];
+}
+
+.PhoneInputInput {
+	@apply w-full pl-1 pr-0 focus:outline-none sm:text-sm rounded-md border-0 h-8 ring-0 focus:ring-0;
+}
+
+.PhoneInputCountryIcon {
+	height: var(--PhoneInputCountryFlag-height);
+	width: calc(var(--PhoneInputCountryFlag-height) * var(--PhoneInputCountryFlag-aspectRatio));
+	@apply z-10 ml-3;
+}
+
+.PhoneInputCountryIcon--square {
+	width: var(--PhoneInputCountryFlag-height);
+	@apply z-10;
+}
+
+.PhoneInputCountryIcon--border {
+	background-color: var(--PhoneInputCountryFlag-backgroundColor--loading);
+	box-shadow: 0 0 0 var(--PhoneInputCountryFlag-borderWidth) var(--PhoneInputCountryFlag-borderColor),
+	inset 0 0 0 var(--PhoneInputCountryFlag-borderWidth) var(--PhoneInputCountryFlag-borderColor);
+}
+
+.PhoneInputCountryIconImg {
+	@apply block w-full h-full z-10;
+}
+
+.PhoneInputInternationalIconPhone {
+	opacity: var(--PhoneInputInternationalIconPhone-opacity);
+	@apply z-10;
+}
+
+.PhoneInputInternationalIconGlobe {
+	opacity: var(--PhoneInputInternationalIconGlobe-opacity);
+	@apply z-10;
+}
+
+.PhoneInputCountry {
+	margin-right: var(--PhoneInputCountrySelect-marginRight);
+
+	@apply relative items-stretch flex items-center z-10;
+}
+
+.PhoneInputCountrySelect {
+	@apply absolute top-0 left-0 h-full w-full z-20 border-0 opacity-0 cursor-pointer;
+}
+
+.PhoneInputCountrySelect[disabled],
+.PhoneInputCountrySelect[readonly] {
+	@apply cursor-default;
+}
+
+.PhoneInputCountrySelectArrow {
+	border-bottom-width: var(--PhoneInputCountrySelectArrow-borderWidth);
+	border-color: var(--PhoneInputCountrySelectArrow-color);
+	border-right-width: var(--PhoneInputCountrySelectArrow-borderWidth);
+	content: '';
+	height: var(--PhoneInputCountrySelectArrow-width);
+	margin-left: var(--PhoneInputCountrySelectArrow-marginLeft);
+	transform: var(--PhoneInputCountrySelectArrow-transform);
+	width: var(--PhoneInputCountrySelectArrow-width);
+
+	@apply block border-solid border-t-0 border-l-0 z-10 ml-2;
+}
+
+.PhoneInputCountrySelect:focus + .PhoneInputCountryIcon + .PhoneInputCountrySelectArrow {
+	color: var(--PhoneInputCountrySelectArrow-color--focus);
+
+	@apply opacity-100 z-10;
+}
+
+.PhoneInputCountrySelect:focus + .PhoneInputCountryIcon--border {
+	box-shadow: 0 0 0 var(--PhoneInputCountryFlag-borderWidth) var(--PhoneInputCountryFlag-borderColor--focus),
+	inset 0 0 0 var(--PhoneInputCountryFlag-borderWidth) var(--PhoneInputCountryFlag-borderColor--focus);
+	@apply z-10;
+}
+
+.PhoneInputCountrySelect:focus + .PhoneInputCountryIcon .PhoneInputInternationalIconGlobe {
+	color: var(--PhoneInputCountrySelectArrow-color--focus);
+
+	@apply opacity-100 z-10;
+}
+
+/* stylelint-enable custom-property-pattern, selector-class-pattern */
+
+/* -- Number Field -- */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	@apply absolute top-0 right-0 h-full ms-40;
+	appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	appearance: textfield;
+}

@@ -1,0 +1,5 @@
+export { Body, type BodyProps } from './body'
+export { Columns, type ColumnsProps } from './columns'
+export { Foot, type FootProps } from './foot'
+export { Head, type HeadProps } from './head'
+export { Panel, type PanelProps } from './panel'

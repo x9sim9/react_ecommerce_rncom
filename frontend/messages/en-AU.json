@@ -1,0 +1,569 @@
+{
+	"app": {
+		"/": {
+			"breadcrumbTitle": "Home",
+			"pageTitle": "Home",
+			"urlName": ""
+		},
+		"/account": {
+			"addresses": "My Addresses",
+			"breadcrumbTitle": "My Account",
+			"pageTitle": "My Account",
+			"recentOrders": "Recent Orders",
+			"urlName": "account"
+		},
+		"/account/addresses": {
+			"breadcrumbTitle": "My Addresses",
+			"pageTitle": "My Addresses",
+			"urlName": "addresses"
+		},
+		"/account/addresses/[operation]/[[,,,orderId]]": {
+			"breadcrumbTitle": "{operation} Address",
+			"operation": {
+				"create": "Create",
+				"update": "Change"
+			},
+			"pageTitle": "{operation} Address",
+			"urlName": ""
+		},
+		"/account/orders": {
+			"allOrders": "All Orders",
+			"breadcrumbTitle": "My Orders",
+			"pageTitle": "My Orders",
+			"urlName": "orders"
+		},
+		"/account/orders/[orderId]": {
+			"addressTitle": "Shipping Address",
+			"breadcrumbTitle": "",
+			"city": "City",
+			"line1": "Line 1",
+			"line2": "Line 2",
+			"orderDate": "Order Date",
+			"orderFriendlyId": "Order #",
+			"orderItemsTitle": "Order Items",
+			"orderTitle": "Order Details",
+			"orderTotal": "Total",
+			"pageTitle": "",
+			"postcode": "Postcode",
+			"shippingTotal": "Shipping",
+			"titlePrefix": "Order: ",
+			"urlName": "",
+			"viewProduct": "View"
+		},
+		"/categories": {
+			"breadcrumbTitle": "Categories",
+			"pageTitle": "Categories",
+			"urlName": "categories"
+		},
+		"/categories/[categoryId]": {
+			"breadcrumbTitle": "",
+			"pageTitle": "",
+			"urlName": ""
+		},
+		"/categories/[categoryId]/[categorySlug]/[productId]/[,,,slug]": {
+			"breadcrumbTitle": "",
+			"pageTitle": "",
+			"productDescription": "Product Information",
+			"urlName": ""
+		},
+		"/login": {
+			"breadcrumbTitle": "Login",
+			"pageTitle": "Login",
+			"urlName": "login"
+		},
+		"/shopping_cart": {
+			"breadcrumbTitle": "Shopping Cart",
+			"pageTitle": "Shopping Cart",
+			"urlName": "shopping_cart"
+		},
+		"/shopping_cart/checkout": {
+			"breadcrumbTitle": "Checkout",
+			"pageTitle": "Checkout",
+			"urlName": "checkout"
+		},
+		"not-found": {
+			"breadcrumbTitle": "Not Found",
+			"pageTitle": "Not Found",
+			"urlName": "404"
+		},
+		"/--": {
+			"breadcrumbTitle": "Developer",
+			"description": "This section contains useful tool for developers, when the project is built this folder is excluded",
+			"menu": {
+				"uiComponents": "UI Components",
+				"uiDocs": "Docs"
+			},
+			"pageTitle": "Developer",
+			"title": "Developer",
+			"urlName": ""
+		},
+		"/--/ui": {
+			"breadcrumbTitle": "UI Components",
+			"description": "The UI Components library is a set of react components built with tailwind",
+			"menu": {
+				"breakpoints": "Breakpoints",
+				"button": "Button",
+				"currency": "Currency",
+				"developer": "Developer",
+				"form": "Form",
+				"grid": "Grid & GridSpan",
+				"heading": "Heading",
+				"link": "Link",
+				"list": "List",
+				"uiHome": "UI Home"
+			},
+			"pageTitle": "UI Components",
+			"title": "UI Components",
+			"urlName": "ui"
+		},
+		"/--/ui/breakpoints": {
+			"breadcrumbTitle": "Breakpoints",
+			"description": "Many attributes of the UI components support breakpoints",
+			"dummy": {
+				"five": "Five",
+				"four": "Four",
+				"one": "One",
+				"six": "Six",
+				"three": "Three",
+				"two": "Two",
+				"button": "Button",
+				"no": "No",
+				"submit": "Submit",
+				"text": "text",
+				"yes": "Yes"
+			},
+			"headingButtonsWithBreakpoints": "Buttons, with Breakpoints",
+			"headingGridSpanWithBreakpoints": "GridSpan, with Breakpoints",
+			"headingGridWithBreakpoints": "Grid, with Breakpoints",
+			"headingUnderstandingBreakpoints": "Understanding Breakpoints",
+			"pageTitle": "Breakpoints",
+			"paragraphSixBreakpoints": "The six breakpoints are",
+			"paragraphUseManyBreakpoints": "Components can use breakpoints on many different attributes",
+			"title": "Breakpoints",
+			"urlName": "breakpoints"
+		},
+		"/--/ui/button": {
+			"breadcrumbTitle": "Button",
+			"color": {
+				"danger": "Danger",
+				"dangerOutline": "Danger Outline",
+				"dark": "Dark",
+				"darkOutline": "Dark Outline ",
+				"info": "Info",
+				"infoOutline": "Info Outline",
+				"light": "Light",
+				"primary": "Primary",
+				"primaryOutline": "Primary Outline",
+				"secondary": "Secondary",
+				"secondaryOutline": "Secondary Outline",
+				"success": "Success",
+				"successOutline": "Success Outline",
+				"warning": "Warning",
+				"warningOutline": "Warning Outline"
+			},
+			"dummy": {
+				"button": "Button",
+				"no": "No",
+				"submit": "Submit",
+				"text": "text",
+				"yes": "Yes"
+			},
+			"headingColors": "Colours",
+			"headingSizes": "Sizes",
+			"headingTypes": "Types",
+			"pageTitle": "Button",
+			"size": {
+				"xs": "Extra Small",
+				"sm": "Small",
+				"md": "Medium",
+				"lg": "Large",
+				"xl": "Extra LArge"
+			},
+			"title": "Button",
+			"urlName": "button"
+		},
+		"/--/ui/currency": {
+			"breadcrumbTitle": "Currency",
+			"description": "Will convert any value into the currency currency and formatting for the set region",
+			"headingComponents": "Components",
+			"pageTitle": "Currency",
+			"title": "Currency",
+			"urlName": "currency"
+		},
+		"/--/ui/form": {
+			"breadcrumbTitle": "Forms",
+			"pageTitle": "Forms",
+			"urlName": "form"
+		},
+		"/--/ui/form/boolean": {
+			"breadcrumbTitle": "Booleans",
+			"pageTitle": "Booleans",
+			"urlName": "boolean"
+		},
+		"/--/ui/form/button": {
+			"breadcrumbTitle": "Buttons",
+			"pageTitle": "Buttons",
+			"urlName": "button"
+		},
+		"/--/ui/form/checkbox": {
+			"breadcrumbTitle": "Checkboxes",
+			"pageTitle": "Checkboxes",
+			"urlName": "checkbox"
+		},
+		"/--/ui/form/checkbox_group": {
+			"breadcrumbTitle": "Checkbox Groups",
+			"pageTitle": "Checkbox Groups",
+			"urlName": "checkbox_group"
+		},
+		"/--/ui/form/date": {
+			"breadcrumbTitle": "Dates",
+			"pageTitle": "Dates",
+			"urlName": "date"
+		},
+		"/--/ui/form/file": {
+			"breadcrumbTitle": "Files",
+			"pageTitle": "Files",
+			"urlName": "file"
+		},
+		"/--/ui/form/phone_number": {
+			"breadcrumbTitle": "Phone Numbers",
+			"pageTitle": "Phone Numbers",
+			"urlName": "phone_number"
+		},
+		"/--/ui/form/radio_group": {
+			"breadcrumbTitle": "Radio Groups",
+			"pageTitle": "Radio Groups",
+			"urlName": "radio_group"
+		},
+		"/--/ui/form/select": {
+			"breadcrumbTitle": "Select",
+			"pageTitle": "Select",
+			"urlName": "select"
+		},
+		"/--/ui/form/text": {
+			"breadcrumbTitle": "Text",
+			"pageTitle": "Text",
+			"urlName": "text"
+		},
+		"/--/ui/form/textarea": {
+			"breadcrumbTitle": "Textarea",
+			"pageTitle": "Textarea",
+			"urlName": "textarea"
+		},
+		"/--/ui/grid": {
+			"breadcrumbTitle": "Grid",
+			"description": "Manages aligning group and spacing elements throughout the project",
+			"dummy": {
+				"five": "Five",
+				"four": "Four",
+				"one": "One",
+				"six": "Six",
+				"three": "Three",
+				"two": "Two",
+				"button": "Button",
+				"no": "No",
+				"submit": "Submit",
+				"text": "text",
+				"yes": "Yes"
+			},
+			"headingBottom": "Bottom",
+			"headingCols": "Cols",
+			"headingComponents": "Components",
+			"headingFourColumns": "Four Columns",
+			"headingGridSpan": "GridSpan",
+			"headingGspd": "Gap",
+			"headingMiddle": "Middle",
+			"headingRow": "Row",
+			"headingSixColumns": "Six Columns",
+			"headingSixColWithSpan": "Six Column, with Span",
+			"headingSmall": "Small",
+			"headingTop": "Top",
+			"headingTwelveColumns": "Twelve Columns",
+			"headingTwoColumns": "Two Columns",
+			"headingUnderstandingBreakpoints": "Understanding Breakpoints",
+			"headingVerticalAlign": "Vertical Align",
+			"headingWithGrid": "with Grid",
+			"headingWithGridSpan": "with GridSpan",
+			"pageTitle": "Grid",
+			"paragraphCanBeDefinedAsBreakpoints": "All of the below properties can be defined differently at each breakpoint",
+			"paragraphSixBreakpoints": "The six breakpoints are",
+			"size": {
+				"xs": "Extra Small",
+				"sm": "Small",
+				"md": "Medium",
+				"lg": "Large",
+				"xl": "Extra LArge"
+			},
+			"title": "Grid",
+			"urlName": "grids"
+		},
+		"/--/ui/heading": {
+			"breadcrumbTitle": "Heading",
+			"description": "For titles and headings of all different sixes",
+			"headingExtraSmall": "Extra Small Heading",
+			"headingLarge": "Large Heading",
+			"headingMedium": "Medium Heading",
+			"headingSmall": "Small Heading",
+			"headinxlg": "XL Heading",
+			"pageTitle": "Heading",
+			"title": "Heading",
+			"urlName": "heading"
+		},
+		"/--/ui/list": {
+			"breadcrumbTitle": "Heading",
+			"description": "Creating Ordered and Unordered lists",
+			"dummy": {
+				"five": "Five",
+				"four": "Four",
+				"one": "One",
+				"six": "Six",
+				"three": "Three",
+				"two": "Two"
+			},
+			"pageTitle": "Heading",
+			"title": "List",
+			"urlName": "heading"
+		},
+		"/--/ui/page": {
+			"breadcrumbTitle": "Heading",
+			"color": {
+				"danger": "Danger",
+				"dangerOutline": "Danger Outline",
+				"dark": "Dark",
+				"darkOutline": "Dark Outline ",
+				"info": "Info",
+				"infoOutline": "Info Outline",
+				"light": "Light",
+				"primary": "Primary",
+				"primaryOutline": "Primary Outline",
+				"secondary": "Secondary",
+				"secondaryOutline": "Secondary Outline",
+				"success": "Success",
+				"successOutline": "Success Outline",
+				"warning": "Warning",
+				"warningOutline": "Warning Outline"
+			},
+			"description": "Hyperlinks and Buttons for Navigation and Events",
+			"dummy": {
+				"button": "Button",
+				"no": "No",
+				"submit": "Submit",
+				"text": "text",
+				"yes": "Yes"
+			},
+			"headingActive": "Active",
+			"headingColors": "Colors",
+			"headingDefault": "Default",
+			"headingProps": "Props",
+			"linkClickHere": "Click Here",
+			"linkCurrentlyActive": "Currently Active",
+			"linkCurrentPage": "Current Page",
+			"linkNotCurrentPage": "Not Current Page",
+			"pageTitle": "Heading",
+			"title": "Link",
+			"urlName": "heading"
+		}
+	},
+	"component": {
+		"account": {
+			"customer": {
+				"addressList": {
+					"changeLabel": "Edit Address",
+					"createLabel": "Add New Address",
+					"deleteFailed": "There was a problem removing the address please try again",
+					"deleteLabel": "Delete",
+					"deleteSuccess": "The address has been deleted",
+					"title": "All Addresses"
+				},
+				"saveAddress": {
+					"city": "City",
+					"line1": "Line 1",
+					"line2": "Line 2",
+					"postcode": "Postcode",
+					"saveFailure": "There was a problem saving your address please check the details and try again",
+					"saveSuccess": "Your address has been saved",
+					"submit": "{operation} Address"
+				}
+			},
+			"order": {
+				"orderList": {
+					"viewOrder": "View Order"
+				}
+			},
+			"pageContent": {
+				"menu": {
+					"addresses": "My Addresses",
+					"home": "My Account",
+					"orders": "My Orders"
+				},
+				"menuTitle": "My Account"
+			}
+		},
+		"common": {
+			"account": {
+				"accountNavitem": {
+					"menu": {
+						"account": "My Account",
+						"addresses": "My Addresses",
+						"logout": "Logout",
+						"orders": "My Orders"
+					},
+					"menuTitle": "My Account"
+				}
+			},
+			"customer": {
+				"login": {
+					"emailAddress": "Email Address",
+					"loginAction": "Login",
+					"loginError": "Login was not successful due to an error, please try again",
+					"loginFailed": "We were unable to authenticate your details, please check and try again",
+					"loginSuccess": "You are now logged in to your account",
+					"password": "Password",
+					"title": "Login"
+				},
+				"useCustomer": {
+					"logoutSuccess": "You have been logged out of your account successfully"
+				}
+			},
+			"footer": {},
+			"header": {
+				"menu": {
+					"allCategories": "All Categories",
+					"browseByCategory": "Browse by Category"
+				}
+			}
+		},
+		"crud": {
+			"change": {
+				"create": "Create",
+				"failedMessage": "There was a problem saving the item please check the details and try again",
+				"successMessage": "The item has been saved",
+				"update": "Update"
+			},
+			"list": {
+				"change": "Edit",
+				"delete": "Delete",
+				"failedDeleteMessage": "There was a problem removing the item please try again",
+				"successDeleteMessage": "The item has been deleted",
+				"update": "Update"
+			}
+		},
+		"storefront": {
+			"product": {
+				"categories": {
+					"title": "All Categories"
+				}
+			},
+			"shoppingCart": {
+				"addToCart": {
+					"addToCart": "Add to Cart",
+					"errorAddtoCart": "We were unable to add the product to your cart, please refresh the page and try again",
+					"purchase": "Purchase",
+					"quantityInCart": "You have {quantity} of this item in your",
+					"shoppingCartLink": "Shopping Cart"
+				},
+				"checkout": {
+					"address": {
+						"city": "City",
+						"line1": "Line 1",
+						"line2": "Line 2",
+						"newAddress": "New Address",
+						"postcode": "Post Code"
+					},
+					"buyButton": "Complete Purchase",
+					"createNewAccount": "Create New Account",
+					"createOrderFailed": "There was a problem creating the order please check the details and try again",
+					"createOrderSuccess": "Thankyou for your purchase, your order has been placed and here is your order information",
+					"customer": {
+						"confirmPassword": "Confirm Password",
+						"emailAddress": "Email Address",
+						"firstName": "First Name",
+						"lastName": "Last Name",
+						"password": "Password",
+						"phoneNumber": "Phone Number"
+					},
+					"details": "Details",
+					"existingAddresses": "Saved Addresses",
+					"existingCustomer": "Existing Customer",
+					"newCustomer": "New Customer",
+					"newCustomerParagraph": "Simply follow the prompts during checkout to create your account",
+					"orderError": "An error occurred completing your order please try again",
+					"selectAddress": "Choose Address",
+					"shipping": "Shipping",
+					"shippingLabel": "Shipping",
+					"shippingOptions": "Shipping Options",
+					"subtotal": "Subtotal",
+					"tax": "GST",
+					"total": "Total",
+					"totalsLabel": "Total"
+				},
+				"largeCart": {
+					"backToBrowse": "Back to Shopping",
+					"browseProducts": "Browse Products",
+					"emptyShoppingCart": "Your Shopping cart is Empty",
+					"proceedToCheckout": "Proceed to Checkout",
+					"shipping": "Shipping",
+					"shippingMessage": "Calculated at Checkout",
+					"subtotal": "Subtotal",
+					"tax": "GST",
+					"title": "Shopping Cart",
+					"total": "Total"
+				},
+				"smallCart": {
+					"checkoutLink": "Checkout",
+					"otherItems": "and {count} other item(s)",
+					"shoppingCartLink": "Shopping Cart",
+					"title": "Shopping Cart"
+				}
+			}
+		},
+		"ui": {
+			"form": {
+				"errors": {
+					"fieldsHaveErrorsTryAgain": "field(s) have errors, please check and try again"
+				},
+				"submit": {
+					"fieldsHaveErrors": "field(s) have errors"
+				},
+				"validation": {
+					"criteria": {
+						"alphanumericExtra": "can only include letters, number, spaces and hyphens",
+						"emailAddress": "must be a valid email address",
+						"password": {
+							"lowercase": "Lowercase character(s)",
+							"message": "must be a secure password",
+							"minLength": "characters in Length",
+							"number": "Number(s)",
+							"special": "Symbol(s) / Special Character(s)",
+							"uppercase": "Uppercase character(s)"
+						},
+						"trackingNumber": "must be a valid Tracking Number",
+						"zendeskTicket": "must be a valid Zendesk Ticket Number"
+					},
+					"rules": {
+						"allSelected": "All options must be selected for",
+						"doesNotMatch": "does not match field",
+						"fileTooLarge": "must be a valid phone number",
+						"integer": "must be valid whole number",
+						"maxDate": "must be a maximum date of",
+						"maxLength": "must be a maximum of {max} characters",
+						"maxNumber": "must be a maximum value of {max}",
+						"maxSelected": "Must select a maximum of {max} options for",
+						"minDate": "must be a minimum date of",
+						"minLength": "must be a minimum of {min} characters",
+						"minNumber": "must be a minimum value of {min}",
+						"minSelected": "Must select a minimum of {min} options for",
+						"mustMatch": "Must Match",
+						"required": "is required",
+						"validPhoneNumber": "must be a valid phone number"
+					}
+				}
+			},
+			"navbar": {
+				"navbar": {
+					"openMenu": "Open main menu"
+				}
+			}
+		}
+	}
+}

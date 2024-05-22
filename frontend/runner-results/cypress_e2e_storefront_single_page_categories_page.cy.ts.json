@@ -1,0 +1,10 @@
+{
+  "suites": 4,
+  "tests": 6,
+  "passes": 6,
+  "pending": 0,
+  "failures": 0,
+  "start": "2024-05-22T16:15:34.108Z",
+  "duration": 654,
+  "file": "cypress/e2e/storefront/single_page/categories_page.cy.ts"
+}

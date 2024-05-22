@@ -1,0 +1,10 @@
+{
+  "suites": 32,
+  "tests": 28,
+  "passes": 28,
+  "pending": 0,
+  "failures": 0,
+  "start": "2024-05-22T16:15:06.553Z",
+  "duration": 8864,
+  "file": "cypress/e2e/account/single_page/save_address_page.cy.ts"
+}

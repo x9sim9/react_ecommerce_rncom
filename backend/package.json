@@ -1,0 +1,57 @@
+{
+	"name": "rncom_rails",
+	"description": "RNCOM is a an Ecommerce project designed by a software developer for software developers",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "rails s -p 3022",
+		"preinstall": "echo '\n\n-- react_ecommerce/backend --\n============================='",
+		"postinstall": "rails db:create db:migrate db:seed_if_empty -q",
+		"sorbet_watch": "onchange -i \"**/*.rb\" \"**/*.rbi\" -- srb tc",
+		"sorbet_spoom_watch": "onchange -i \"**/*.rb\" \"**/*.rbi\" -- spoom srb tc",
+		"sorbet_watcher": "clear && npm run sorbet_watch",
+		"sorbet_spoom_watcher": "clear && npm run sorbet_spoom_watch",
+		"sorbet_constants": "clear && tapioca todo",
+		"sorbet_gems": "clear && tapioca gems",
+		"sorbet_dsl": "clear && tapioca dsl --verify",
+		"test": "clear && bundle exec rspec spec",
+		"lint": "rubocop"
+	},
+	"devDependencies": {
+		"onchange": "^7.1.0"
+	},
+	"author": {
+		"name": "Simon Lennon",
+		"email": "simon.lennon@outlook.com",
+		"website": "https://github.com/x9sim9"
+	},
+	"engines": {
+		"node": ">=v20.12.0",
+		"ruby": ">=ruby-3.2.2"
+	},
+	"bugs": {
+		"url": "https://github.com/x9sim9/react_ecommerce_rncom/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/x9sim9/react_ecommerce_rncom"
+	},
+	"homepage": "https://github.com/x9sim9/react_ecommerce_rncom",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"keywords": [
+		"rncom",
+		"ecommerce",
+		"ruby",
+		"graphql",
+		"rails",
+		"rails api",
+		"sorbet",
+		"rubocop",
+		"rspec",
+		"fabrication",
+		"rubydoc"
+	],
+	"funding": {
+		"type": "individual",
+		"url": "https://github.com/x9sim9"
+	}
+}

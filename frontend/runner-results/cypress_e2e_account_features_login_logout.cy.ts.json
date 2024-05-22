@@ -1,0 +1,10 @@
+{
+  "suites": 13,
+  "tests": 11,
+  "passes": 11,
+  "pending": 0,
+  "failures": 0,
+  "start": "2024-05-22T16:15:01.269Z",
+  "duration": 8567,
+  "file": "cypress/e2e/account/features/login_logout.cy.ts"
+}

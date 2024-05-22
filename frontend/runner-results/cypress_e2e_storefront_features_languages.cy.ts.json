@@ -1,0 +1,10 @@
+{
+  "suites": 3,
+  "tests": 2,
+  "passes": 2,
+  "pending": 0,
+  "failures": 0,
+  "start": "2024-05-22T16:15:43.890Z",
+  "duration": 1075,
+  "file": "cypress/e2e/storefront/features/languages.cy.ts"
+}

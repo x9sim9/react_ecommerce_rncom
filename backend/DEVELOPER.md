@@ -1,0 +1,14 @@
+# DEVELOPER - Backend
+
+### Useful Functions
+
+| Command                        | Description                                                                                                                                                                                                                            |
+|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `npm run dev`                  | Start the backend server on [http://127.0.0.1:3022](http://127.0.0.1:3022)                                                                                                                                                             |
+| `npm run lint`                 | This will run the rubocop linter to check for coding errors, it is recommend to have rubocop run automatically on save as it will keep the code formatted and help resolve errors as you work                                          |
+| `npm run test`                 | Run all RSpec Tests. See `/spec/README.md` for more information                                                                                                                                                                        |
+| `npm run sorbet_watcher`       | Runs sorbet type checker in watch mode, will automatically refresh as you make changes to files                                                                                                                                        |
+| `npm run sorbet_spoom_watcher` | A more concise version of the sorbet provides a summary rather than a full breakdown                                                                                                                                                   |
+| `npm run sorbet_constants`     | This is a feature of Sorbet Tapioca `tapioca todo` if you get missing constants errors this can help                                                                                                                                   |
+| `npm run gems`                 | This is a feature of Sorbet Tapioca `tapioca gems` when installing new gems this will generate all the required types                                                                                                                  |
+| `npm run dsl`                  | This is a feature of Sorbet Tapioca `tapioca dsl` when creating new models or other features of rails that create automatic helper functions you may get type errors this will scan your project and create definitions where required |

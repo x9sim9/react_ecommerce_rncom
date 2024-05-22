@@ -1,0 +1,7 @@
+import './categories_page.cy'
+import './category_page.cy'
+import './checkout_page.cy'
+import './home_page.cy'
+import './login_page.cy'
+import './product_page.cy'
+import './shopping_cart_page.cy'

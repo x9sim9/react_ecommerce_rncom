@@ -1,0 +1,23 @@
+{
+	"extends": [
+		"stylelint-config-standard-scss",
+		"stylelint-config-prettier-scss",
+		"stylelint-config-tailwindcss/scss",
+		"stylelint-config-tailwindcss"
+	],
+	"plugins": [
+		"stylelint-scss",
+		"stylelint-order"
+	],
+	"rules": {
+		"comment-empty-line-before": "always",
+		"custom-property-empty-line-before": "never",
+		"declaration-empty-line-before": "never",
+		"function-name-case": "lower",
+		"no-irregular-whitespace": true,
+		"order/properties-alphabetical-order": true,
+		"selector-type-case": "lower",
+		"string-no-newline": true,
+		"value-keyword-case": "lower"
+	}
+}

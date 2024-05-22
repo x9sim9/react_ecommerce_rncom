@@ -1,0 +1,569 @@
+{
+	"app": {
+		"/": {
+			"breadcrumbTitle": "Maison",
+			"pageTitle": "Maison",
+			"urlName": ""
+		},
+		"/account": {
+			"addresses": "Mes adresses",
+			"breadcrumbTitle": "Mon compte",
+			"pageTitle": "Mon compte",
+			"recentOrders": "Dernières commandes",
+			"urlName": "compte"
+		},
+		"/account/addresses": {
+			"breadcrumbTitle": "Mes adresses",
+			"pageTitle": "Mes adresses",
+			"urlName": "adresses"
+		},
+		"/account/addresses/[operation]/[[,,,orderId]]": {
+			"breadcrumbTitle": "{opération} Adresse",
+			"operation": {
+				"create": "Créer",
+				"update": "Changement"
+			},
+			"pageTitle": "{opération} Adresse",
+			"urlName": ""
+		},
+		"/account/orders": {
+			"allOrders": "Tous les ordres",
+			"breadcrumbTitle": "Mes commandes",
+			"pageTitle": "Mes commandes",
+			"urlName": "ordres"
+		},
+		"/account/orders/[orderId]": {
+			"addressTitle": "adresse de livraison",
+			"breadcrumbTitle": "",
+			"city": "Ville",
+			"line1": "Ligne 1",
+			"line2": "Ligne 2",
+			"orderDate": "Date de commande",
+			"orderFriendlyId": "Commande #",
+			"orderItemsTitle": "Items commandés",
+			"orderTitle": "détails de la commande",
+			"orderTotal": "Total",
+			"pageTitle": "",
+			"postcode": "Code postal",
+			"shippingTotal": "Expédition",
+			"titlePrefix": "Commande: ",
+			"urlName": "",
+			"viewProduct": "Voir"
+		},
+		"/categories": {
+			"breadcrumbTitle": "Catégories",
+			"pageTitle": "Catégories",
+			"urlName": "catégories"
+		},
+		"/categories/[categoryId]": {
+			"breadcrumbTitle": "",
+			"pageTitle": "",
+			"urlName": ""
+		},
+		"/categories/[categoryId]/[categorySlug]/[productId]/[,,,slug]": {
+			"breadcrumbTitle": "",
+			"pageTitle": "",
+			"productDescription": "Information produit",
+			"urlName": ""
+		},
+		"/login": {
+			"breadcrumbTitle": "Se connecter",
+			"pageTitle": "Se connecter",
+			"urlName": "se connecter"
+		},
+		"/shopping_cart": {
+			"breadcrumbTitle": "Panier",
+			"pageTitle": "Panier",
+			"urlName": "panier"
+		},
+		"/shopping_cart/checkout": {
+			"breadcrumbTitle": "Vérifier",
+			"pageTitle": "Vérifier",
+			"urlName": "vérifier"
+		},
+		"not-found": {
+			"breadcrumbTitle": "Pas trouvé",
+			"pageTitle": "Pas trouvé",
+			"urlName": "404"
+		},
+		"/--": {
+			"breadcrumbTitle": "Développeur",
+			"description": "Cette section contient un outil utile pour les développeurs, lorsque le projet est construit, ce dossier est exclu",
+			"menu": {
+				"uiComponents": "Composants de l'interface utilisateur",
+				"uiDocs": "Documents"
+			},
+			"pageTitle": "Développeur",
+			"title": "Développeur",
+			"urlName": ""
+		},
+		"/--/ui": {
+			"breadcrumbTitle": "Composants de l'interface utilisateur",
+			"description": "La bibliothèque de composants d'interface utilisateur est un ensemble de composants de réaction construits avec Tailwind",
+			"menu": {
+				"breakpoints": "Points d'arrêt",
+				"button": "Bouton",
+				"currency": "Devise",
+				"developer": "Développeur",
+				"form": "Formulaire",
+				"grid": "Grille et GridSpan",
+				"heading": "Titre",
+				"link": "Lien",
+				"list": "Liste",
+				"uiHome": "Accueil de l'interface utilisateur"
+			},
+			"pageTitle": "Composants de l'interface utilisateur",
+			"title": "Composants de l'interface utilisateur",
+			"urlName": "interface utilisateur"
+		},
+		"/--/ui/breakpoints": {
+			"breadcrumbTitle": "Points d'arrêt",
+			"description": "De nombreux attributs des composants de l'interface utilisateur prennent en charge les points d'arrêt",
+			"dummy": {
+				"five": "Cinq",
+				"four": "Quatre",
+				"one": "Un",
+				"six": "Six",
+				"three": "Trois",
+				"two": "Deux",
+				"button": "Bouton",
+				"no": "Non",
+				"submit": "Soumettre",
+				"text": "texte",
+				"yes": "Oui"
+			},
+			"headingButtonsWithBreakpoints": "Boutons, avec points d'arrêt",
+			"headingGridSpanWithBreakpoints": "GridSpan, avec points d'arrêt",
+			"headingGridWithBreakpoints": "Grille, avec points d'arrêt",
+			"headingUnderstandingBreakpoints": "Comprendre les points d'arrêt",
+			"pageTitle": "Points d'arrêt",
+			"paragraphSixBreakpoints": "Les six points d'arrêt sont",
+			"paragraphUseManyBreakpoints": "Les composants peuvent utiliser des points d'arrêt sur de nombreux attributs différents",
+			"title": "Points d'arrêt",
+			"urlName": "points d'arrêt"
+		},
+		"/--/ui/button": {
+			"breadcrumbTitle": "Bouton",
+			"color": {
+				"danger": "Danger",
+				"dangerOutline": "Aperçu des dangers",
+				"dark": "Sombre",
+				"darkOutline": "Contour sombre ",
+				"info": "Info",
+				"infoOutline": "Aperçu des informations",
+				"light": "Lumière",
+				"primary": "Primaire",
+				"primaryOutline": "Aperçu principal",
+				"secondary": "Secondaire",
+				"secondaryOutline": "Aperçu secondaire",
+				"success": "Succès",
+				"successOutline": "Aperçu du succès",
+				"warning": "Avertissement",
+				"warningOutline": "Aperçu de l'avertissement"
+			},
+			"dummy": {
+				"button": "Bouton",
+				"no": "Non",
+				"submit": "Soumettre",
+				"text": "texte",
+				"yes": "Oui"
+			},
+			"headingColors": "Couleurs",
+			"headingSizes": "Tailles",
+			"headingTypes": "Les types",
+			"pageTitle": "Bouton",
+			"size": {
+				"xs": "Super petit",
+				"sm": "Petit",
+				"md": "Moyen",
+				"lg": "Grand",
+				"xl": "Extra large"
+			},
+			"title": "Bouton",
+			"urlName": "bouton"
+		},
+		"/--/ui/currency": {
+			"breadcrumbTitle": "Devise",
+			"description": "Convertira n'importe quelle valeur dans la devise et le formatage pour la région définie",
+			"headingComponents": "Composants",
+			"pageTitle": "Devise",
+			"title": "Devise",
+			"urlName": "devise"
+		},
+		"/--/ui/form": {
+			"breadcrumbTitle": "Formes",
+			"pageTitle": "Formes",
+			"urlName": "formulaire"
+		},
+		"/--/ui/form/boolean": {
+			"breadcrumbTitle": "Booléens",
+			"pageTitle": "Booléens",
+			"urlName": "booléen"
+		},
+		"/--/ui/form/button": {
+			"breadcrumbTitle": "Boutons",
+			"pageTitle": "Boutons",
+			"urlName": "bouton"
+		},
+		"/--/ui/form/checkbox": {
+			"breadcrumbTitle": "Cases à cocher",
+			"pageTitle": "Cases à cocher",
+			"urlName": "case à cocher"
+		},
+		"/--/ui/form/checkbox_group": {
+			"breadcrumbTitle": "Groupes de cases à cocher",
+			"pageTitle": "Groupes de cases à cocher",
+			"urlName": "checkbox_group"
+		},
+		"/--/ui/form/date": {
+			"breadcrumbTitle": "Rendez-vous",
+			"pageTitle": "Rendez-vous",
+			"urlName": "date"
+		},
+		"/--/ui/form/file": {
+			"breadcrumbTitle": "Des dossiers",
+			"pageTitle": "Des dossiers",
+			"urlName": "déposer"
+		},
+		"/--/ui/form/phone_number": {
+			"breadcrumbTitle": "Les numéros de téléphone",
+			"pageTitle": "Les numéros de téléphone",
+			"urlName": "numéro de téléphone"
+		},
+		"/--/ui/form/radio_group": {
+			"breadcrumbTitle": "Groupes de radio",
+			"pageTitle": "Groupes de radio",
+			"urlName": "groupe_radio"
+		},
+		"/--/ui/form/select": {
+			"breadcrumbTitle": "Sélectionner",
+			"pageTitle": "Sélectionner",
+			"urlName": "sélectionner"
+		},
+		"/--/ui/form/text": {
+			"breadcrumbTitle": "Texte",
+			"pageTitle": "Texte",
+			"urlName": "texte"
+		},
+		"/--/ui/form/textarea": {
+			"breadcrumbTitle": "Zone de texte",
+			"pageTitle": "Zone de texte",
+			"urlName": "zone de texte"
+		},
+		"/--/ui/grid": {
+			"breadcrumbTitle": "Grille",
+			"description": "Gère l’alignement des groupes et des éléments d’espacement tout au long du projet",
+			"dummy": {
+				"five": "Cinq",
+				"four": "Quatre",
+				"one": "Un",
+				"six": "Six",
+				"three": "Trois",
+				"two": "Deux",
+				"button": "Bouton",
+				"no": "Non",
+				"submit": "Soumettre",
+				"text": "texte",
+				"yes": "Oui"
+			},
+			"headingBottom": "Bas",
+			"headingCols": "Cols",
+			"headingComponents": "Composants",
+			"headingFourColumns": "Quatre colonnes",
+			"headingGridSpan": "Portée de la grille",
+			"headingGspd": "Écart",
+			"headingMiddle": "Milieu",
+			"headingRow": "Rangée",
+			"headingSixColumns": "Six colonnes",
+			"headingSixColWithSpan": "Six colonnes, avec portée",
+			"headingSmall": "Petit",
+			"headingTop": "Haut",
+			"headingTwelveColumns": "Douze colonnes",
+			"headingTwoColumns": "Deux colonnes",
+			"headingUnderstandingBreakpoints": "Comprendre les points d'arrêt",
+			"headingVerticalAlign": "Alignement vertical",
+			"headingWithGrid": "avec grille",
+			"headingWithGridSpan": "avec GridSpan",
+			"pageTitle": "Grille",
+			"paragraphCanBeDefinedAsBreakpoints": "Toutes les propriétés ci-dessous peuvent être définies différemment à chaque point d'arrêt",
+			"paragraphSixBreakpoints": "Les six points d'arrêt sont",
+			"size": {
+				"xs": "Super petit",
+				"sm": "Petit",
+				"md": "Moyen",
+				"lg": "Grand",
+				"xl": "Extra large"
+			},
+			"title": "Grille",
+			"urlName": "grilles"
+		},
+		"/--/ui/heading": {
+			"breadcrumbTitle": "Titre",
+			"description": "Pour les titres et en-têtes de tous les six différents",
+			"headingExtraSmall": "Très petit titre",
+			"headingLarge": "Grand titre",
+			"headingMedium": "Titre moyen",
+			"headingSmall": "Petit titre",
+			"headinxlg": "Rubrique XL",
+			"pageTitle": "Titre",
+			"title": "Titre",
+			"urlName": "titre"
+		},
+		"/--/ui/list": {
+			"breadcrumbTitle": "Titre",
+			"description": "Création de listes ordonnées et non ordonnées",
+			"dummy": {
+				"five": "Cinq",
+				"four": "Quatre",
+				"one": "Un",
+				"six": "Six",
+				"three": "Trois",
+				"two": "Deux"
+			},
+			"pageTitle": "Titre",
+			"title": "Liste",
+			"urlName": "titre"
+		},
+		"/--/ui/page": {
+			"breadcrumbTitle": "Titre",
+			"color": {
+				"danger": "Danger",
+				"dangerOutline": "Aperçu des dangers",
+				"dark": "Sombre",
+				"darkOutline": "Contour sombre ",
+				"info": "Info",
+				"infoOutline": "Aperçu des informations",
+				"light": "Lumière",
+				"primary": "Primaire",
+				"primaryOutline": "Aperçu principal",
+				"secondary": "Secondaire",
+				"secondaryOutline": "Aperçu secondaire",
+				"success": "Succès",
+				"successOutline": "Aperçu du succès",
+				"warning": "Avertissement",
+				"warningOutline": "Aperçu de l'avertissement"
+			},
+			"description": "Hyperliens et boutons pour la navigation et les événements",
+			"dummy": {
+				"button": "Bouton",
+				"no": "Non",
+				"submit": "Soumettre",
+				"text": "texte",
+				"yes": "Oui"
+			},
+			"headingActive": "Actif",
+			"headingColors": "Couleurs",
+			"headingDefault": "Défaut",
+			"headingProps": "Accessoires",
+			"linkClickHere": "Cliquez ici",
+			"linkCurrentlyActive": "Actuellement actif",
+			"linkCurrentPage": "Page actuelle",
+			"linkNotCurrentPage": "Pas de page actuelle",
+			"pageTitle": "Titre",
+			"title": "Lien",
+			"urlName": "titre"
+		}
+	},
+	"component": {
+		"account": {
+			"customer": {
+				"addressList": {
+					"changeLabel": "Modifier l'adresse",
+					"createLabel": "Ajouter une nouvelle adresse",
+					"deleteFailed": "Un problème est survenu lors de la suppression de l'adresse. Veuillez réessayer",
+					"deleteLabel": "Supprimer",
+					"deleteSuccess": "L'adresse a été supprimée",
+					"title": "Toutes les adresses"
+				},
+				"saveAddress": {
+					"city": "Ville",
+					"line1": "Ligne 1",
+					"line2": "Ligne 2",
+					"postcode": "Code postal",
+					"saveFailure": "Un problème est survenu lors de l'enregistrement de votre adresse. Veuillez vérifier les détails et réessayer.",
+					"saveSuccess": "Votre adresse a été enregistrée",
+					"submit": "{opération} Adresse"
+				}
+			},
+			"order": {
+				"orderList": {
+					"viewOrder": "Voir l'ordre"
+				}
+			},
+			"pageContent": {
+				"menu": {
+					"addresses": "Mes adresses",
+					"home": "Mon compte",
+					"orders": "Mes commandes"
+				},
+				"menuTitle": "Mon compte"
+			}
+		},
+		"common": {
+			"account": {
+				"accountNavitem": {
+					"menu": {
+						"account": "Mon compte",
+						"addresses": "Mes adresses",
+						"logout": "Se déconnecter",
+						"orders": "Mes commandes"
+					},
+					"menuTitle": "Mon compte"
+				}
+			},
+			"customer": {
+				"login": {
+					"emailAddress": "Adresse e-mail",
+					"loginAction": "Se connecter",
+					"loginError": "La connexion n'a pas réussi en raison d'une erreur, veuillez réessayer",
+					"loginFailed": "Nous n'avons pas pu authentifier vos coordonnées, veuillez vérifier et réessayer",
+					"loginSuccess": "Vous êtes maintenant connecté à votre compte",
+					"password": "Mot de passe",
+					"title": "Se connecter"
+				},
+				"useCustomer": {
+					"logoutSuccess": "Vous avez été déconnecté de votre compte avec succès"
+				}
+			},
+			"footer": {},
+			"header": {
+				"menu": {
+					"allCategories": "toutes catégories",
+					"browseByCategory": "Parcourir par catégorie"
+				}
+			}
+		},
+		"crud": {
+			"change": {
+				"create": "Créer",
+				"failedMessage": "Un problème est survenu lors de l'enregistrement de l'article. Veuillez vérifier les détails et réessayer.",
+				"successMessage": "L'élément a été enregistré",
+				"update": "Mise à jour"
+			},
+			"list": {
+				"change": "Modifier",
+				"delete": "Supprimer",
+				"failedDeleteMessage": "Un problème est survenu lors de la suppression de l'élément. Veuillez réessayer",
+				"successDeleteMessage": "L'élément a été supprimé",
+				"update": "Mise à jour"
+			}
+		},
+		"storefront": {
+			"product": {
+				"categories": {
+					"title": "toutes catégories"
+				}
+			},
+			"shoppingCart": {
+				"addToCart": {
+					"addToCart": "Ajouter au panier",
+					"errorAddtoCart": "Nous n'avons pas pu ajouter le produit à votre panier, veuillez actualiser la page et réessayer",
+					"purchase": "Achat",
+					"quantityInCart": "Vous avez {quantité} de cet article dans votre",
+					"shoppingCartLink": "Panier"
+				},
+				"checkout": {
+					"address": {
+						"city": "Ville",
+						"line1": "Ligne 1",
+						"line2": "Ligne 2",
+						"newAddress": "Nouvelle adresse",
+						"postcode": "Code postal"
+					},
+					"buyButton": "Finaliser l'achat",
+					"createNewAccount": "Créer un nouveau compte",
+					"createOrderFailed": "Un problème est survenu lors de la création de la commande, veuillez vérifier les détails et réessayer",
+					"createOrderSuccess": "Merci pour votre achat, votre commande a été passée et voici les informations de votre commande",
+					"customer": {
+						"confirmPassword": "Confirmez le mot de passe",
+						"emailAddress": "Adresse e-mail",
+						"firstName": "Prénom",
+						"lastName": "Nom de famille",
+						"password": "Mot de passe",
+						"phoneNumber": "Numéro de téléphone"
+					},
+					"details": "Détails",
+					"existingAddresses": "Adresses enregistrées",
+					"existingCustomer": "Client existant",
+					"newCustomer": "Nouveau client",
+					"newCustomerParagraph": "Suivez simplement les instructions lors du paiement pour créer votre compte",
+					"orderError": "Une erreur s'est produite lors de la finalisation de votre commande, veuillez réessayer",
+					"selectAddress": "Choisissez l'adresse",
+					"shipping": "Expédition",
+					"shippingLabel": "Expédition",
+					"shippingOptions": "Les options d'expédition",
+					"subtotal": "Total",
+					"tax": "T.V.A.",
+					"total": "Total",
+					"totalsLabel": "Total"
+				},
+				"largeCart": {
+					"backToBrowse": "Retour aux achats",
+					"browseProducts": "Parcourir les produits",
+					"emptyShoppingCart": "Votre panier est vide",
+					"proceedToCheckout": "Passer à la caisse",
+					"shipping": "Expédition",
+					"shippingMessage": "Calculé à la caisse",
+					"subtotal": "Total",
+					"tax": "T.V.A.",
+					"title": "Panier",
+					"total": "Total"
+				},
+				"smallCart": {
+					"checkoutLink": "Vérifier",
+					"otherItems": "et {count} autre(s) article(s)",
+					"shoppingCartLink": "Panier",
+					"title": "Panier"
+				}
+			}
+		},
+		"ui": {
+			"form": {
+				"errors": {
+					"fieldsHaveErrorsTryAgain": "les champs contiennent des erreurs, veuillez vérifier et réessayer"
+				},
+				"submit": {
+					"fieldsHaveErrors": "les champs contiennent des erreurs"
+				},
+				"validation": {
+					"criteria": {
+						"alphanumericExtra": "ne peut inclure que des lettres, des chiffres, des espaces et des traits d'union",
+						"emailAddress": "Doit être une adresse e-mail valide",
+						"password": {
+							"lowercase": "Caractère(s) minuscule(s)",
+							"message": "doit être un mot de passe sécurisé",
+							"minLength": "caractères en longueur",
+							"number": "Nombres)",
+							"special": "Symbole(s) / Caractère(s) spécial(s)",
+							"uppercase": "Caractère(s) majuscule(s)"
+						},
+						"trackingNumber": "doit être un numéro de suivi valide",
+						"zendeskTicket": "doit être un numéro de ticket Zendesk valide"
+					},
+					"rules": {
+						"allSelected": "Toutes les options doivent être sélectionnées pour",
+						"doesNotMatch": "ne correspond pas au champ",
+						"fileTooLarge": "doit être un numéro de téléphone valide",
+						"integer": "doit être un nombre entier valide",
+						"maxDate": "doit être une date maximale de",
+						"maxLength": "doit comporter un maximum de {max} caractères",
+						"maxNumber": "doit avoir une valeur maximale de {max}",
+						"maxSelected": "Doit sélectionner un maximum de {max} options pour",
+						"minDate": "doit être une date minimale de",
+						"minLength": "doit contenir au minimum {min} caractères",
+						"minNumber": "doit avoir une valeur minimale de {min}",
+						"minSelected": "Doit sélectionner un minimum de {min} options pour",
+						"mustMatch": "Doit correspondre",
+						"required": "est requis",
+						"validPhoneNumber": "doit être un numéro de téléphone valide"
+					}
+				}
+			},
+			"navbar": {
+				"navbar": {
+					"openMenu": "Ouvrir le menu principal"
+				}
+			}
+		}
+	}
+}

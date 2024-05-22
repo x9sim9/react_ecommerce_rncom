@@ -1,0 +1,64 @@
+{
+	"name": "rncom",
+	"description": "RNCOM is a an Ecommerce project designed by a software developer for software developers",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "concurrently \"npm --prefix frontend run dev\" \"npm run --prefix backend dev\" ",
+		"preinstall": "npm run -s install_correct_node_version",
+		"postinstall": "npm -s --prefix backend install && npm -s --prefix frontend install && npm -s run copy_docs echo \"\n\n- Complete...\"",
+		"use": ". ~/.nvm/nvm.sh; nvm use || (nvm install $(cat .nvmrc) && nvm use)",
+		"install_correct_node_version": "if [ -d \"${HOME}/.nvm/.git\" ]; then npm run -s use; else echo \"nvm is missing, please check you have the correct version of node $(cat .nvmrc)\"; fi",
+		"copy_docs": "cp -f './DOCUMENTATION.md' './frontend/src/app/[locale]/(storefront)/DOCUMENTATION.md' && cp -f './CONTRIBUTIONS.md' './frontend/src/app/[locale]/(license)/contributions/CONTRIBUTIONS.md' && cp -f --parents `find . -name \\*.md -not -regex '.*\\/node_modules\\/.*' -not -regex '.*\\/src\\/app\\/.*'` \"./frontend/src/app/[locale]/(developer)/--/docs\"",
+		"package_lint": "npmPkgJsonLint ."
+	},
+	"author": {
+		"name": "Simon Lennon",
+		"email": "simon.lennon@outlook.com",
+		"website": "https://github.com/x9sim9"
+	},
+	"engines": {
+		"node": ">=v20.12.0",
+		"ruby": ">=ruby-3.2.2"
+	},
+	"bugs": {
+		"url": "https://github.com/x9sim9/react_ecommerce_rncom/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/x9sim9/react_ecommerce_rncom"
+	},
+	"homepage": "https://github.com/x9sim9/react_ecommerce_rncom",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"keywords": [
+		"rncom",
+		"ecommerce",
+		"ruby",
+		"typescript",
+		"react",
+		"nextjs",
+		"i18n",
+		"tailwind",
+		"graphql",
+		"redux",
+		"eslint",
+		"jsdoc",
+		"cypress",
+		"rails",
+		"rails api",
+		"sorbet",
+		"rubocop",
+		"rspec",
+		"fabrication",
+		"rubydoc"
+	],
+	"dependencies": {
+		"minimal": "^0.2.1"
+	},
+	"devDependencies": {
+		"npm-package-json-lint": "^7.1.0"
+	},
+	"funding": {
+		"type": "individual",
+		"url": "https://github.com/x9sim9"
+	}
+}

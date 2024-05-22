@@ -1,0 +1,3 @@
+In order to have a valid license to use this project the /contributions page must exist.
+
+Please see CONTRIBUTIONS.md for more information.

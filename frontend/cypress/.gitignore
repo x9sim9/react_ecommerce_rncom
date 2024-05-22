@@ -1,0 +1,6 @@
+/screenshots/*
+!screenshots/.keep
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

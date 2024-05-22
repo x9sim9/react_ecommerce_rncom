@@ -1,0 +1,10 @@
+{
+  "suites": 13,
+  "tests": 20,
+  "passes": 20,
+  "pending": 0,
+  "failures": 0,
+  "start": "2024-05-22T16:15:45.981Z",
+  "duration": 3819,
+  "file": "cypress/e2e/storefront/single_page/shopping_cart_page.cy.ts"
+}

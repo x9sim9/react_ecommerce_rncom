@@ -1,0 +1,569 @@
+{
+	"app": {
+		"/": {
+			"breadcrumbTitle": "Thuis",
+			"pageTitle": "Thuis",
+			"urlName": ""
+		},
+		"/account": {
+			"addresses": "Mijn adressen",
+			"breadcrumbTitle": "Mijn rekening",
+			"pageTitle": "Mijn rekening",
+			"recentOrders": "recente bestellingen",
+			"urlName": "rekening"
+		},
+		"/account/addresses": {
+			"breadcrumbTitle": "Mijn adressen",
+			"pageTitle": "Mijn adressen",
+			"urlName": "adressen"
+		},
+		"/account/addresses/[operation]/[[,,,orderId]]": {
+			"breadcrumbTitle": "{operatie} Adres",
+			"operation": {
+				"create": "Creëren",
+				"update": "Wijziging"
+			},
+			"pageTitle": "{operatie} Adres",
+			"urlName": ""
+		},
+		"/account/orders": {
+			"allOrders": "Alle bestellingen",
+			"breadcrumbTitle": "mijn bestellingen",
+			"pageTitle": "mijn bestellingen",
+			"urlName": "bestellingen"
+		},
+		"/account/orders/[orderId]": {
+			"addressTitle": "Verzendingsadres",
+			"breadcrumbTitle": "",
+			"city": "Stad",
+			"line1": "Lijn 1",
+			"line2": "Lijn 2",
+			"orderDate": "Besteldatum",
+			"orderFriendlyId": "Volgorde #",
+			"orderItemsTitle": "Artikelen bestellen",
+			"orderTitle": "Bestel Details",
+			"orderTotal": "Totaal",
+			"pageTitle": "",
+			"postcode": "Postcode",
+			"shippingTotal": "Verzenden",
+			"titlePrefix": "Volgorde: ",
+			"urlName": "",
+			"viewProduct": "Weergave"
+		},
+		"/categories": {
+			"breadcrumbTitle": "Categorieën",
+			"pageTitle": "Categorieën",
+			"urlName": "categorieën"
+		},
+		"/categories/[categoryId]": {
+			"breadcrumbTitle": "",
+			"pageTitle": "",
+			"urlName": ""
+		},
+		"/categories/[categoryId]/[categorySlug]/[productId]/[,,,slug]": {
+			"breadcrumbTitle": "",
+			"pageTitle": "",
+			"productDescription": "Productinformatie",
+			"urlName": ""
+		},
+		"/login": {
+			"breadcrumbTitle": "Log in",
+			"pageTitle": "Log in",
+			"urlName": "Log in"
+		},
+		"/shopping_cart": {
+			"breadcrumbTitle": "Winkelmand",
+			"pageTitle": "Winkelmand",
+			"urlName": "winkelmand"
+		},
+		"/shopping_cart/checkout": {
+			"breadcrumbTitle": "Uitchecken",
+			"pageTitle": "Uitchecken",
+			"urlName": "uitchecken"
+		},
+		"not-found": {
+			"breadcrumbTitle": "Niet gevonden",
+			"pageTitle": "Niet gevonden",
+			"urlName": "404"
+		},
+		"/--": {
+			"breadcrumbTitle": "Ontwikkelaar",
+			"description": "Deze sectie bevat nuttige hulpmiddelen voor ontwikkelaars. Wanneer het project wordt gebouwd, wordt deze map uitgesloten",
+			"menu": {
+				"uiComponents": "UI-componenten",
+				"uiDocs": "Documenten"
+			},
+			"pageTitle": "Ontwikkelaar",
+			"title": "Ontwikkelaar",
+			"urlName": ""
+		},
+		"/--/ui": {
+			"breadcrumbTitle": "UI-componenten",
+			"description": "De UI Components-bibliotheek is een set reactiecomponenten die met rugwind zijn gebouwd",
+			"menu": {
+				"breakpoints": "Breekpunten",
+				"button": "Knop",
+				"currency": "Munteenheid",
+				"developer": "Ontwikkelaar",
+				"form": "Formulier",
+				"grid": "Raster & Rasterbereik",
+				"heading": "Rubriek",
+				"link": "Koppeling",
+				"list": "Lijst",
+				"uiHome": "UI-startpagina"
+			},
+			"pageTitle": "UI-componenten",
+			"title": "UI-componenten",
+			"urlName": "ui"
+		},
+		"/--/ui/breakpoints": {
+			"breadcrumbTitle": "Breekpunten",
+			"description": "Veel kenmerken van de UI-componenten ondersteunen breekpunten",
+			"dummy": {
+				"five": "Vijf",
+				"four": "Vier",
+				"one": "Een",
+				"six": "Zes",
+				"three": "Drie",
+				"two": "Twee",
+				"button": "Knop",
+				"no": "Nee",
+				"submit": "Indienen",
+				"text": "tekst",
+				"yes": "Ja"
+			},
+			"headingButtonsWithBreakpoints": "Knoppen, met breekpunten",
+			"headingGridSpanWithBreakpoints": "GridSpan, met breekpunten",
+			"headingGridWithBreakpoints": "Raster, met breekpunten",
+			"headingUnderstandingBreakpoints": "Breekpunten begrijpen",
+			"pageTitle": "Breekpunten",
+			"paragraphSixBreakpoints": "De zes breekpunten zijn",
+			"paragraphUseManyBreakpoints": "Componenten kunnen breekpunten gebruiken voor veel verschillende attributen",
+			"title": "Breekpunten",
+			"urlName": "breekpunten"
+		},
+		"/--/ui/button": {
+			"breadcrumbTitle": "Knop",
+			"color": {
+				"danger": "Gevaar",
+				"dangerOutline": "Gevaaroverzicht",
+				"dark": "Donker",
+				"darkOutline": "Donkere omtrek ",
+				"info": "Info",
+				"infoOutline": "Infooverzicht",
+				"light": "Licht",
+				"primary": "Primair",
+				"primaryOutline": "Primaire schets",
+				"secondary": "Ondergeschikt",
+				"secondaryOutline": "Secundair overzicht",
+				"success": "Succes",
+				"successOutline": "Succesoverzicht",
+				"warning": "Waarschuwing",
+				"warningOutline": "Waarschuwingsoverzicht"
+			},
+			"dummy": {
+				"button": "Knop",
+				"no": "Nee",
+				"submit": "Indienen",
+				"text": "tekst",
+				"yes": "Ja"
+			},
+			"headingColors": "Kleuren",
+			"headingSizes": "Maten",
+			"headingTypes": "Soorten",
+			"pageTitle": "Knop",
+			"size": {
+				"xs": "Extra klein",
+				"sm": "Klein",
+				"md": "Medium",
+				"lg": "Groot",
+				"xl": "Extra groot"
+			},
+			"title": "Knop",
+			"urlName": "knop"
+		},
+		"/--/ui/currency": {
+			"breadcrumbTitle": "Munteenheid",
+			"description": "Converteert elke waarde naar de valutavaluta en opmaak voor de ingestelde regio",
+			"headingComponents": "Componenten",
+			"pageTitle": "Munteenheid",
+			"title": "Munteenheid",
+			"urlName": "munteenheid"
+		},
+		"/--/ui/form": {
+			"breadcrumbTitle": "Formulieren",
+			"pageTitle": "Formulieren",
+			"urlName": "formulier"
+		},
+		"/--/ui/form/boolean": {
+			"breadcrumbTitle": "Booleaanse waarden",
+			"pageTitle": "Booleaanse waarden",
+			"urlName": "Booleaans"
+		},
+		"/--/ui/form/button": {
+			"breadcrumbTitle": "Toetsen",
+			"pageTitle": "Toetsen",
+			"urlName": "knop"
+		},
+		"/--/ui/form/checkbox": {
+			"breadcrumbTitle": "Selectievakjes",
+			"pageTitle": "Selectievakjes",
+			"urlName": "selectievakje"
+		},
+		"/--/ui/form/checkbox_group": {
+			"breadcrumbTitle": "Selectievakje Groepen",
+			"pageTitle": "Selectievakje Groepen",
+			"urlName": "checkbox_groep"
+		},
+		"/--/ui/form/date": {
+			"breadcrumbTitle": "Datums",
+			"pageTitle": "Datums",
+			"urlName": "datum"
+		},
+		"/--/ui/form/file": {
+			"breadcrumbTitle": "Bestanden",
+			"pageTitle": "Bestanden",
+			"urlName": "bestand"
+		},
+		"/--/ui/form/phone_number": {
+			"breadcrumbTitle": "Telefoonnummers",
+			"pageTitle": "Telefoonnummers",
+			"urlName": "telefoonnummer"
+		},
+		"/--/ui/form/radio_group": {
+			"breadcrumbTitle": "Radiogroepen",
+			"pageTitle": "Radiogroepen",
+			"urlName": "radio_groep"
+		},
+		"/--/ui/form/select": {
+			"breadcrumbTitle": "Selecteer",
+			"pageTitle": "Selecteer",
+			"urlName": "selecteren"
+		},
+		"/--/ui/form/text": {
+			"breadcrumbTitle": "Tekst",
+			"pageTitle": "Tekst",
+			"urlName": "tekst"
+		},
+		"/--/ui/form/textarea": {
+			"breadcrumbTitle": "Tekstgebied",
+			"pageTitle": "Tekstgebied",
+			"urlName": "tekstgebied"
+		},
+		"/--/ui/grid": {
+			"breadcrumbTitle": "Rooster",
+			"description": "Beheert het uitlijnen van groeps- en afstandselementen gedurende het hele project",
+			"dummy": {
+				"five": "Vijf",
+				"four": "Vier",
+				"one": "Een",
+				"six": "Zes",
+				"three": "Drie",
+				"two": "Twee",
+				"button": "Knop",
+				"no": "Nee",
+				"submit": "Indienen",
+				"text": "tekst",
+				"yes": "Ja"
+			},
+			"headingBottom": "Onderkant",
+			"headingCols": "Col",
+			"headingComponents": "Componenten",
+			"headingFourColumns": "Vier kolommen",
+			"headingGridSpan": "Rasterspan",
+			"headingGspd": "Gat",
+			"headingMiddle": "Midden",
+			"headingRow": "Rij",
+			"headingSixColumns": "Zes kolommen",
+			"headingSixColWithSpan": "Zes kolommen, met overspanning",
+			"headingSmall": "Klein",
+			"headingTop": "Bovenkant",
+			"headingTwelveColumns": "Twaalf kolommen",
+			"headingTwoColumns": "Twee kolommen",
+			"headingUnderstandingBreakpoints": "Breekpunten begrijpen",
+			"headingVerticalAlign": "Verticaal uitlijnen",
+			"headingWithGrid": "met raster",
+			"headingWithGridSpan": "met GridSpan",
+			"pageTitle": "Rooster",
+			"paragraphCanBeDefinedAsBreakpoints": "Alle onderstaande eigenschappen kunnen bij elk breekpunt anders worden gedefinieerd",
+			"paragraphSixBreakpoints": "De zes breekpunten zijn",
+			"size": {
+				"xs": "Extra klein",
+				"sm": "Klein",
+				"md": "Medium",
+				"lg": "Groot",
+				"xl": "Extra groot"
+			},
+			"title": "Rooster",
+			"urlName": "roosters"
+		},
+		"/--/ui/heading": {
+			"breadcrumbTitle": "Rubriek",
+			"description": "Voor titels en kopjes van alle verschillende zessen",
+			"headingExtraSmall": "Extra kleine kop",
+			"headingLarge": "Grote kop",
+			"headingMedium": "Middelgrote kop",
+			"headingSmall": "Kleine kop",
+			"headinxlg": "XL-kop",
+			"pageTitle": "Rubriek",
+			"title": "Rubriek",
+			"urlName": "rubriek"
+		},
+		"/--/ui/list": {
+			"breadcrumbTitle": "Rubriek",
+			"description": "Geordende en ongeordende lijsten maken",
+			"dummy": {
+				"five": "Vijf",
+				"four": "Vier",
+				"one": "Een",
+				"six": "Zes",
+				"three": "Drie",
+				"two": "Twee"
+			},
+			"pageTitle": "Rubriek",
+			"title": "Lijst",
+			"urlName": "rubriek"
+		},
+		"/--/ui/page": {
+			"breadcrumbTitle": "Rubriek",
+			"color": {
+				"danger": "Gevaar",
+				"dangerOutline": "Gevaaroverzicht",
+				"dark": "Donker",
+				"darkOutline": "Donkere omtrek ",
+				"info": "Info",
+				"infoOutline": "Infooverzicht",
+				"light": "Licht",
+				"primary": "Primair",
+				"primaryOutline": "Primaire schets",
+				"secondary": "Ondergeschikt",
+				"secondaryOutline": "Secundair overzicht",
+				"success": "Succes",
+				"successOutline": "Succesoverzicht",
+				"warning": "Waarschuwing",
+				"warningOutline": "Waarschuwingsoverzicht"
+			},
+			"description": "Hyperlinks en knoppen voor navigatie en evenementen",
+			"dummy": {
+				"button": "Knop",
+				"no": "Nee",
+				"submit": "Indienen",
+				"text": "tekst",
+				"yes": "Ja"
+			},
+			"headingActive": "Actief",
+			"headingColors": "Kleuren",
+			"headingDefault": "Standaard",
+			"headingProps": "Rekwisieten",
+			"linkClickHere": "Klik hier",
+			"linkCurrentlyActive": "Momenteel actief",
+			"linkCurrentPage": "Huidige pagina",
+			"linkNotCurrentPage": "Niet huidige pagina",
+			"pageTitle": "Rubriek",
+			"title": "Koppeling",
+			"urlName": "rubriek"
+		}
+	},
+	"component": {
+		"account": {
+			"customer": {
+				"addressList": {
+					"changeLabel": "verander adres",
+					"createLabel": "Nieuw adres toevoegen",
+					"deleteFailed": "Er is een probleem opgetreden bij het verwijderen van het adres. Probeer het opnieuw",
+					"deleteLabel": "Verwijderen",
+					"deleteSuccess": "Het adres is verwijderd",
+					"title": "Alle adressen"
+				},
+				"saveAddress": {
+					"city": "Stad",
+					"line1": "Lijn 1",
+					"line2": "Lijn 2",
+					"postcode": "Postcode",
+					"saveFailure": "Er is een probleem opgetreden bij het opslaan van uw adres. Controleer de gegevens en probeer het opnieuw",
+					"saveSuccess": "Uw adres is opgeslagen",
+					"submit": "{operatie} Adres"
+				}
+			},
+			"order": {
+				"orderList": {
+					"viewOrder": "Bestelling bekijken"
+				}
+			},
+			"pageContent": {
+				"menu": {
+					"addresses": "Mijn adressen",
+					"home": "Mijn rekening",
+					"orders": "mijn bestellingen"
+				},
+				"menuTitle": "Mijn rekening"
+			}
+		},
+		"common": {
+			"account": {
+				"accountNavitem": {
+					"menu": {
+						"account": "Mijn rekening",
+						"addresses": "Mijn adressen",
+						"logout": "Uitloggen",
+						"orders": "mijn bestellingen"
+					},
+					"menuTitle": "Mijn rekening"
+				}
+			},
+			"customer": {
+				"login": {
+					"emailAddress": "E-mailadres",
+					"loginAction": "Log in",
+					"loginError": "Inloggen is niet gelukt vanwege een fout. Probeer het opnieuw",
+					"loginFailed": "We kunnen uw gegevens niet verifiëren. Controleer dit en probeer het opnieuw",
+					"loginSuccess": "U bent nu ingelogd op uw account",
+					"password": "Wachtwoord",
+					"title": "Log in"
+				},
+				"useCustomer": {
+					"logoutSuccess": "U bent succesvol afgemeld bij uw account"
+				}
+			},
+			"footer": {},
+			"header": {
+				"menu": {
+					"allCategories": "Alle categorieën",
+					"browseByCategory": "Blader op categorie"
+				}
+			}
+		},
+		"crud": {
+			"change": {
+				"create": "Creëren",
+				"failedMessage": "Er is een probleem opgetreden bij het opslaan van het item. Controleer de details en probeer het opnieuw",
+				"successMessage": "Het artikel is opgeslagen",
+				"update": "Update"
+			},
+			"list": {
+				"change": "Bewerking",
+				"delete": "Verwijderen",
+				"failedDeleteMessage": "Er is een probleem opgetreden bij het verwijderen van het item. Probeer het opnieuw",
+				"successDeleteMessage": "Het item is verwijderd",
+				"update": "Update"
+			}
+		},
+		"storefront": {
+			"product": {
+				"categories": {
+					"title": "Alle categorieën"
+				}
+			},
+			"shoppingCart": {
+				"addToCart": {
+					"addToCart": "Voeg toe aan winkelkar",
+					"errorAddtoCart": "We konden het product niet aan uw winkelwagen toevoegen. Vernieuw de pagina en probeer het opnieuw",
+					"purchase": "Aankoop",
+					"quantityInCart": "U heeft {aantal} van dit artikel in uw bezit",
+					"shoppingCartLink": "Winkelmand"
+				},
+				"checkout": {
+					"address": {
+						"city": "Stad",
+						"line1": "Lijn 1",
+						"line2": "Lijn 2",
+						"newAddress": "Nieuw adres",
+						"postcode": "Postcode"
+					},
+					"buyButton": "Voltooi aankoop",
+					"createNewAccount": "Creëer een nieuw account",
+					"createOrderFailed": "Er is een probleem opgetreden bij het maken van de bestelling. Controleer de details en probeer het opnieuw",
+					"createOrderSuccess": "Bedankt voor uw aankoop, uw bestelling is geplaatst en hier vindt u uw bestelgegevens",
+					"customer": {
+						"confirmPassword": "bevestig wachtwoord",
+						"emailAddress": "E-mailadres",
+						"firstName": "Voornaam",
+						"lastName": "Achternaam",
+						"password": "Wachtwoord",
+						"phoneNumber": "Telefoonnummer"
+					},
+					"details": "Details",
+					"existingAddresses": "Opgeslagen adressen",
+					"existingCustomer": "Bestaande klant",
+					"newCustomer": "Nieuwe klant",
+					"newCustomerParagraph": "Volg eenvoudig de aanwijzingen tijdens het afrekenen om uw account aan te maken",
+					"orderError": "Er is een fout opgetreden bij het voltooien van uw bestelling. Probeer het opnieuw",
+					"selectAddress": "Kies Adres",
+					"shipping": "Verzenden",
+					"shippingLabel": "Verzenden",
+					"shippingOptions": "Verzendopties",
+					"subtotal": "Subtotaal",
+					"tax": "VAT",
+					"total": "Totaal",
+					"totalsLabel": "Totaal"
+				},
+				"largeCart": {
+					"backToBrowse": "Terug naar Winkelen",
+					"browseProducts": "Blader door producten",
+					"emptyShoppingCart": "Uw winkelwagen is leeg",
+					"proceedToCheckout": "Ga naar de kassa",
+					"shipping": "Verzenden",
+					"shippingMessage": "Berekend bij het afrekenen",
+					"subtotal": "Subtotaal",
+					"tax": "VAT",
+					"title": "Winkelmand",
+					"total": "Totaal"
+				},
+				"smallCart": {
+					"checkoutLink": "Uitchecken",
+					"otherItems": "en {tel} andere artikel(en)",
+					"shoppingCartLink": "Winkelmand",
+					"title": "Winkelmand"
+				}
+			}
+		},
+		"ui": {
+			"form": {
+				"errors": {
+					"fieldsHaveErrorsTryAgain": "veld(en) bevatten fouten. Controleer dit en probeer het opnieuw"
+				},
+				"submit": {
+					"fieldsHaveErrors": "veld(en) bevatten fouten"
+				},
+				"validation": {
+					"criteria": {
+						"alphanumericExtra": "mag alleen letters, cijfers, spaties en koppeltekens bevatten",
+						"emailAddress": "Moet een geldig e-mail adres zijn",
+						"password": {
+							"lowercase": "Kleine letters",
+							"message": "moet een veilig wachtwoord zijn",
+							"minLength": "Tekens in lengte",
+							"number": "Nummer(s)",
+							"special": "Symbo(o)l(en) / Speciaal teken(s)",
+							"uppercase": "Hoofdletter(s)"
+						},
+						"trackingNumber": "moet een geldig trackingnummer zijn",
+						"zendeskTicket": "moet een geldig Zendesk-ticketnummer zijn"
+					},
+					"rules": {
+						"allSelected": "Alle opties moeten geselecteerd zijn",
+						"doesNotMatch": "komt niet overeen met het veld",
+						"fileTooLarge": "moet een geldig telefoonnummer zijn",
+						"integer": "moet een geldig geheel getal zijn",
+						"maxDate": "moet een maximale datum zijn van",
+						"maxLength": "mag maximaal {max} tekens bevatten",
+						"maxNumber": "moet een maximale waarde van {max} zijn",
+						"maxSelected": "Moet maximaal {max} opties selecteren voor",
+						"minDate": "moet een minimumdatum zijn van",
+						"minLength": "moet minimaal {min} tekens bevatten",
+						"minNumber": "moet een minimumwaarde van {min} zijn",
+						"minSelected": "Moet minimaal {min} opties selecteren voor",
+						"mustMatch": "Moet overeenkomen",
+						"required": "Is benodigd",
+						"validPhoneNumber": "moet een geldig telefoonnummer zijn"
+					}
+				}
+			},
+			"navbar": {
+				"navbar": {
+					"openMenu": "Hoofdmenu openen"
+				}
+			}
+		}
+	}
+}

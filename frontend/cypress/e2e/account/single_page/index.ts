@@ -1,0 +1,5 @@
+import './account_home_page.cy'
+import './addresses_page.cy'
+import './order_page.cy'
+import './orders_page.cy'
+import './save_address_page.cy'
